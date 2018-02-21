@@ -1,0 +1,170 @@
+{
+    "network": "dorefanet",
+    "input_image": "../../tests/Test_image/dorefanet/input.bin",
+    "verification_image": "../../tests/Test_image/dorefanet/verification.bin",    
+    "binparam": "binparam-dorefanet",
+    "use_binparams" : true,
+    "binparam_skip" : 1,
+    "layer_skip" : 1,
+    "layers": [{
+            "name": "conv0",
+            "func": "conv_layer",
+            "input_bits": 8,
+            "output_bits": 2,
+            "weight_bits": 8,
+            "threshold_bits": 20,
+            "kernel_shape": 12,
+            "kernel_stride": 4,
+            "input_channels": 3,
+            "input": [3, 224, 224],
+            "output_channels": 68,
+            "output": [68, 54, 54],
+            "padding": 0
+        },
+        {
+            "name": "split1",
+            "func": "split_layer",
+            "split": 2,
+            "input_channels": 68,
+            "input_dim": 54
+        },
+        {
+            "name": "conv1",
+            "func": "conv_layer",
+            "input_bits": 2,
+            "output_bits": 2,
+            "weight_bits": 1,
+            "threshold_bits": 16,
+            "kernel_shape": 5,
+            "kernel_stride": 1,
+            "input_channels": 34,
+            "input": [34, 54, 54],
+            "output_channels": 90,
+            "output": [90, 54, 54],
+            "padding": 2
+        },
+        {
+            "name": "pool1",
+            "func": "maxpool_layer",
+            "input_bits": 2,
+            "output_bits": 2,
+            "kernel_shape": 3,
+            "kernel_stride": 2,
+            "input_channels": 90,
+            "input": [90, 55, 55],
+            "output_channels": 90,
+            "output": [90, 27, 27],
+            "padding": 0.5
+        },
+        {
+            "name": "merge1",
+            "func": "merge_layer",
+            "merge": 2,
+            "output_channels": 180,
+            "output_dim": 27
+        },
+        {
+            "name": "conv2",
+            "func": "conv_layer",
+            "input_bits": 2,
+            "output_bits": 2,
+            "weight_bits": 1,
+            "threshold_bits": 16,
+            "kernel_shape": 3,
+            "kernel_stride": 1,
+            "input_channels": 180,
+            "input": [180, 27, 27],
+            "output_channels": 272,
+            "output": [272, 27, 27],
+            "padding": 1
+        },
+        {
+            "name": "pool2",
+            "func": "maxpool_layer",
+            "input_bits": 2,
+            "output_bits": 2,
+            "kernel_shape": 3,
+            "kernel_stride": 2,
+            "input_channels": 272,
+            "input": [272, 29, 29],
+            "output_channels": 272,
+            "output": [272, 14, 14],
+            "padding": 1
+        },
+        {
+            "name": "split3",
+            "func": "split_layer",
+            "split": 2,
+            "input_channels": 272,
+            "input_dim": 14
+        },
+        {
+            "name": "conv3",
+            "func": "conv_layer",
+            "input_bits": 2,
+            "output_bits": 2,
+            "weight_bits": 1,
+            "threshold_bits": 16,
+            "kernel_shape": 3,
+            "kernel_stride": 1,
+            "input_channels": 136,
+            "input": [136, 14, 14],
+            "output_channels": 192,
+            "output": [192, 14, 14],
+            "padding": 1
+        },
+        {
+            "name": "conv4",
+            "func": "conv_layer",
+            "input_bits": 2,
+            "output_bits": 2,
+            "weight_bits": 1,
+            "threshold_bits": 16,
+            "kernel_shape": 3,
+            "kernel_stride": 1,
+            "input_channels": 192,
+            "input": [192, 14, 14],
+            "output_channels": 128,
+            "output": [128, 14, 14],
+            "padding": 1
+        },
+        {
+            "name": "pool4",
+            "func": "maxpool_layer",
+            "input_bits": 2,
+            "output_bits": 2,
+            "kernel_shape": 3,
+            "kernel_stride": 2,
+            "input_channels": 128,
+            "input": [128, 14, 14],
+            "output_channels": 128,
+            "output": [128, 6, 6],
+            "padding": 0
+        },
+        {
+            "name": "merge4",
+            "func": "merge_layer",
+            "merge": 2,
+            "output_channels": 256,
+            "output_dim": 6
+        },
+        {
+            "name": "fc0",
+            "func": "fc_layer",
+            "input": 9216,
+            "output": 4096
+        },
+        {
+            "name": "fc1",
+            "func": "fc_layer",
+            "input": 4096,
+            "output": 4096
+        },
+        {
+            "name": "fc2",
+            "func": "fc_layer",
+            "input": 4096,
+            "output": 1000
+        }
+    ]
+}

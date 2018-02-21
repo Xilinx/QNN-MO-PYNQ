@@ -1,0 +1,6002 @@
+(dp0
+I0
+(S'n01440764'
+p1
+S'tench, Tinca tinca'
+p2
+tp3
+sI1
+(S'n01443537'
+p4
+S'goldfish, Carassius auratus'
+p5
+tp6
+sI2
+(S'n01484850'
+p7
+S'great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias'
+p8
+tp9
+sI3
+(S'n01491361'
+p10
+S'tiger shark, Galeocerdo cuvieri'
+p11
+tp12
+sI4
+(S'n01494475'
+p13
+S'hammerhead, hammerhead shark'
+p14
+tp15
+sI5
+(S'n01496331'
+p16
+S'electric ray, crampfish, numbfish, torpedo'
+p17
+tp18
+sI6
+(S'n01498041'
+p19
+S'stingray'
+p20
+tp21
+sI7
+(S'n01514668'
+p22
+S'cock'
+p23
+tp24
+sI8
+(S'n01514859'
+p25
+S'hen'
+p26
+tp27
+sI9
+(S'n01518878'
+p28
+S'ostrich, Struthio camelus'
+p29
+tp30
+sI10
+(S'n01530575'
+p31
+S'brambling, Fringilla montifringilla'
+p32
+tp33
+sI11
+(S'n01531178'
+p34
+S'goldfinch, Carduelis carduelis'
+p35
+tp36
+sI12
+(S'n01532829'
+p37
+S'house finch, linnet, Carpodacus mexicanus'
+p38
+tp39
+sI13
+(S'n01534433'
+p40
+S'junco, snowbird'
+p41
+tp42
+sI14
+(S'n01537544'
+p43
+S'indigo bunting, indigo finch, indigo bird, Passerina cyanea'
+p44
+tp45
+sI15
+(S'n01558993'
+p46
+S'robin, American robin, Turdus migratorius'
+p47
+tp48
+sI16
+(S'n01560419'
+p49
+S'bulbul'
+p50
+tp51
+sI17
+(S'n01580077'
+p52
+S'jay'
+p53
+tp54
+sI18
+(S'n01582220'
+p55
+S'magpie'
+p56
+tp57
+sI19
+(S'n01592084'
+p58
+S'chickadee'
+p59
+tp60
+sI20
+(S'n01601694'
+p61
+S'water ouzel, dipper'
+p62
+tp63
+sI21
+(S'n01608432'
+p64
+S'kite'
+p65
+tp66
+sI22
+(S'n01614925'
+p67
+S'bald eagle, American eagle, Haliaeetus leucocephalus'
+p68
+tp69
+sI23
+(S'n01616318'
+p70
+S'vulture'
+p71
+tp72
+sI24
+(S'n01622779'
+p73
+S'great grey owl, great gray owl, Strix nebulosa'
+p74
+tp75
+sI25
+(S'n01629819'
+p76
+S'European fire salamander, Salamandra salamandra'
+p77
+tp78
+sI26
+(S'n01630670'
+p79
+S'common newt, Triturus vulgaris'
+p80
+tp81
+sI27
+(S'n01631663'
+p82
+S'eft'
+p83
+tp84
+sI28
+(S'n01632458'
+p85
+S'spotted salamander, Ambystoma maculatum'
+p86
+tp87
+sI29
+(S'n01632777'
+p88
+S'axolotl, mud puppy, Ambystoma mexicanum'
+p89
+tp90
+sI30
+(S'n01641577'
+p91
+S'bullfrog, Rana catesbeiana'
+p92
+tp93
+sI31
+(S'n01644373'
+p94
+S'tree frog, tree-frog'
+p95
+tp96
+sI32
+(S'n01644900'
+p97
+S'tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui'
+p98
+tp99
+sI33
+(S'n01664065'
+p100
+S'loggerhead, loggerhead turtle, Caretta caretta'
+p101
+tp102
+sI34
+(S'n01665541'
+p103
+S'leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea'
+p104
+tp105
+sI35
+(S'n01667114'
+p106
+S'mud turtle'
+p107
+tp108
+sI36
+(S'n01667778'
+p109
+S'terrapin'
+p110
+tp111
+sI37
+(S'n01669191'
+p112
+S'box turtle, box tortoise'
+p113
+tp114
+sI38
+(S'n01675722'
+p115
+S'banded gecko'
+p116
+tp117
+sI39
+(S'n01677366'
+p118
+S'common iguana, iguana, Iguana iguana'
+p119
+tp120
+sI40
+(S'n01682714'
+p121
+S'American chameleon, anole, Anolis carolinensis'
+p122
+tp123
+sI41
+(S'n01685808'
+p124
+S'whiptail, whiptail lizard'
+p125
+tp126
+sI42
+(S'n01687978'
+p127
+S'agama'
+p128
+tp129
+sI43
+(S'n01688243'
+p130
+S'frilled lizard, Chlamydosaurus kingi'
+p131
+tp132
+sI44
+(S'n01689811'
+p133
+S'alligator lizard'
+p134
+tp135
+sI45
+(S'n01692333'
+p136
+S'Gila monster, Heloderma suspectum'
+p137
+tp138
+sI46
+(S'n01693334'
+p139
+S'green lizard, Lacerta viridis'
+p140
+tp141
+sI47
+(S'n01694178'
+p142
+S'African chameleon, Chamaeleo chamaeleon'
+p143
+tp144
+sI48
+(S'n01695060'
+p145
+S'Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis'
+p146
+tp147
+sI49
+(S'n01697457'
+p148
+S'African crocodile, Nile crocodile, Crocodylus niloticus'
+p149
+tp150
+sI50
+(S'n01698640'
+p151
+S'American alligator, Alligator mississipiensis'
+p152
+tp153
+sI51
+(S'n01704323'
+p154
+S'triceratops'
+p155
+tp156
+sI52
+(S'n01728572'
+p157
+S'thunder snake, worm snake, Carphophis amoenus'
+p158
+tp159
+sI53
+(S'n01728920'
+p160
+S'ringneck snake, ring-necked snake, ring snake'
+p161
+tp162
+sI54
+(S'n01729322'
+p163
+S'hognose snake, puff adder, sand viper'
+p164
+tp165
+sI55
+(S'n01729977'
+p166
+S'green snake, grass snake'
+p167
+tp168
+sI56
+(S'n01734418'
+p169
+S'king snake, kingsnake'
+p170
+tp171
+sI57
+(S'n01735189'
+p172
+S'garter snake, grass snake'
+p173
+tp174
+sI58
+(S'n01737021'
+p175
+S'water snake'
+p176
+tp177
+sI59
+(S'n01739381'
+p178
+S'vine snake'
+p179
+tp180
+sI60
+(S'n01740131'
+p181
+S'night snake, Hypsiglena torquata'
+p182
+tp183
+sI61
+(S'n01742172'
+p184
+S'boa constrictor, Constrictor constrictor'
+p185
+tp186
+sI62
+(S'n01744401'
+p187
+S'rock python, rock snake, Python sebae'
+p188
+tp189
+sI63
+(S'n01748264'
+p190
+S'Indian cobra, Naja naja'
+p191
+tp192
+sI64
+(S'n01749939'
+p193
+S'green mamba'
+p194
+tp195
+sI65
+(S'n01751748'
+p196
+S'sea snake'
+p197
+tp198
+sI66
+(S'n01753488'
+p199
+S'horned viper, cerastes, sand viper, horned asp, Cerastes cornutus'
+p200
+tp201
+sI67
+(S'n01755581'
+p202
+S'diamondback, diamondback rattlesnake, Crotalus adamanteus'
+p203
+tp204
+sI68
+(S'n01756291'
+p205
+S'sidewinder, horned rattlesnake, Crotalus cerastes'
+p206
+tp207
+sI69
+(S'n01768244'
+p208
+S'trilobite'
+p209
+tp210
+sI70
+(S'n01770081'
+p211
+S'harvestman, daddy longlegs, Phalangium opilio'
+p212
+tp213
+sI71
+(S'n01770393'
+p214
+S'scorpion'
+p215
+tp216
+sI72
+(S'n01773157'
+p217
+S'black and gold garden spider, Argiope aurantia'
+p218
+tp219
+sI73
+(S'n01773549'
+p220
+S'barn spider, Araneus cavaticus'
+p221
+tp222
+sI74
+(S'n01773797'
+p223
+S'garden spider, Aranea diademata'
+p224
+tp225
+sI75
+(S'n01774384'
+p226
+S'black widow, Latrodectus mactans'
+p227
+tp228
+sI76
+(S'n01774750'
+p229
+S'tarantula'
+p230
+tp231
+sI77
+(S'n01775062'
+p232
+S'wolf spider, hunting spider'
+p233
+tp234
+sI78
+(S'n01776313'
+p235
+S'tick'
+p236
+tp237
+sI79
+(S'n01784675'
+p238
+S'centipede'
+p239
+tp240
+sI80
+(S'n01795545'
+p241
+S'black grouse'
+p242
+tp243
+sI81
+(S'n01796340'
+p244
+S'ptarmigan'
+p245
+tp246
+sI82
+(S'n01797886'
+p247
+S'ruffed grouse, partridge, Bonasa umbellus'
+p248
+tp249
+sI83
+(S'n01798484'
+p250
+S'prairie chicken, prairie grouse, prairie fowl'
+p251
+tp252
+sI84
+(S'n01806143'
+p253
+S'peacock'
+p254
+tp255
+sI85
+(S'n01806567'
+p256
+S'quail'
+p257
+tp258
+sI86
+(S'n01807496'
+p259
+S'partridge'
+p260
+tp261
+sI87
+(S'n01817953'
+p262
+S'African grey, African gray, Psittacus erithacus'
+p263
+tp264
+sI88
+(S'n01818515'
+p265
+S'macaw'
+p266
+tp267
+sI89
+(S'n01819313'
+p268
+S'sulphur-crested cockatoo, Kakatoe galerita, Cacatua galerita'
+p269
+tp270
+sI90
+(S'n01820546'
+p271
+S'lorikeet'
+p272
+tp273
+sI91
+(S'n01824575'
+p274
+S'coucal'
+p275
+tp276
+sI92
+(S'n01828970'
+p277
+S'bee eater'
+p278
+tp279
+sI93
+(S'n01829413'
+p280
+S'hornbill'
+p281
+tp282
+sI94
+(S'n01833805'
+p283
+S'hummingbird'
+p284
+tp285
+sI95
+(S'n01843065'
+p286
+S'jacamar'
+p287
+tp288
+sI96
+(S'n01843383'
+p289
+S'toucan'
+p290
+tp291
+sI97
+(S'n01847000'
+p292
+S'drake'
+p293
+tp294
+sI98
+(S'n01855032'
+p295
+S'red-breasted merganser, Mergus serrator'
+p296
+tp297
+sI99
+(S'n01855672'
+p298
+S'goose'
+p299
+tp300
+sI100
+(S'n01860187'
+p301
+S'black swan, Cygnus atratus'
+p302
+tp303
+sI101
+(S'n01871265'
+p304
+S'tusker'
+p305
+tp306
+sI102
+(S'n01872401'
+p307
+S'echidna, spiny anteater, anteater'
+p308
+tp309
+sI103
+(S'n01873310'
+p310
+S'platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus'
+p311
+tp312
+sI104
+(S'n01877812'
+p313
+S'wallaby, brush kangaroo'
+p314
+tp315
+sI105
+(S'n01882714'
+p316
+S'koala, koala bear, kangaroo bear, native bear, Phascolarctos cinereus'
+p317
+tp318
+sI106
+(S'n01883070'
+p319
+S'wombat'
+p320
+tp321
+sI107
+(S'n01910747'
+p322
+S'jellyfish'
+p323
+tp324
+sI108
+(S'n01914609'
+p325
+S'sea anemone, anemone'
+p326
+tp327
+sI109
+(S'n01917289'
+p328
+S'brain coral'
+p329
+tp330
+sI110
+(S'n01924916'
+p331
+S'flatworm, platyhelminth'
+p332
+tp333
+sI111
+(S'n01930112'
+p334
+S'nematode, nematode worm, roundworm'
+p335
+tp336
+sI112
+(S'n01943899'
+p337
+S'conch'
+p338
+tp339
+sI113
+(S'n01944390'
+p340
+S'snail'
+p341
+tp342
+sI114
+(S'n01945685'
+p343
+S'slug'
+p344
+tp345
+sI115
+(S'n01950731'
+p346
+S'sea slug, nudibranch'
+p347
+tp348
+sI116
+(S'n01955084'
+p349
+S'chiton, coat-of-mail shell, sea cradle, polyplacophore'
+p350
+tp351
+sI117
+(S'n01968897'
+p352
+S'chambered nautilus, pearly nautilus, nautilus'
+p353
+tp354
+sI118
+(S'n01978287'
+p355
+S'Dungeness crab, Cancer magister'
+p356
+tp357
+sI119
+(S'n01978455'
+p358
+S'rock crab, Cancer irroratus'
+p359
+tp360
+sI120
+(S'n01980166'
+p361
+S'fiddler crab'
+p362
+tp363
+sI121
+(S'n01981276'
+p364
+S'king crab, Alaska crab, Alaskan king crab, Alaska king crab, Paralithodes camtschatica'
+p365
+tp366
+sI122
+(S'n01983481'
+p367
+S'American lobster, Northern lobster, Maine lobster, Homarus americanus'
+p368
+tp369
+sI123
+(S'n01984695'
+p370
+S'spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish'
+p371
+tp372
+sI124
+(S'n01985128'
+p373
+S'crayfish, crawfish, crawdad, crawdaddy'
+p374
+tp375
+sI125
+(S'n01986214'
+p376
+S'hermit crab'
+p377
+tp378
+sI126
+(S'n01990800'
+p379
+S'isopod'
+p380
+tp381
+sI127
+(S'n02002556'
+p382
+S'white stork, Ciconia ciconia'
+p383
+tp384
+sI128
+(S'n02002724'
+p385
+S'black stork, Ciconia nigra'
+p386
+tp387
+sI129
+(S'n02006656'
+p388
+S'spoonbill'
+p389
+tp390
+sI130
+(S'n02007558'
+p391
+S'flamingo'
+p392
+tp393
+sI131
+(S'n02009229'
+p394
+S'little blue heron, Egretta caerulea'
+p395
+tp396
+sI132
+(S'n02009912'
+p397
+S'American egret, great white heron, Egretta albus'
+p398
+tp399
+sI133
+(S'n02011460'
+p400
+S'bittern'
+p401
+tp402
+sI134
+(S'n02012849'
+p403
+S'crane'
+p404
+tp405
+sI135
+(S'n02013706'
+p406
+S'limpkin, Aramus pictus'
+p407
+tp408
+sI136
+(S'n02017213'
+p409
+S'European gallinule, Porphyrio porphyrio'
+p410
+tp411
+sI137
+(S'n02018207'
+p412
+S'American coot, marsh hen, mud hen, water hen, Fulica americana'
+p413
+tp414
+sI138
+(S'n02018795'
+p415
+S'bustard'
+p416
+tp417
+sI139
+(S'n02025239'
+p418
+S'ruddy turnstone, Arenaria interpres'
+p419
+tp420
+sI140
+(S'n02027492'
+p421
+S'red-backed sandpiper, dunlin, Erolia alpina'
+p422
+tp423
+sI141
+(S'n02028035'
+p424
+S'redshank, Tringa totanus'
+p425
+tp426
+sI142
+(S'n02033041'
+p427
+S'dowitcher'
+p428
+tp429
+sI143
+(S'n02037110'
+p430
+S'oystercatcher, oyster catcher'
+p431
+tp432
+sI144
+(S'n02051845'
+p433
+S'pelican'
+p434
+tp435
+sI145
+(S'n02056570'
+p436
+S'king penguin, Aptenodytes patagonica'
+p437
+tp438
+sI146
+(S'n02058221'
+p439
+S'albatross, mollymawk'
+p440
+tp441
+sI147
+(S'n02066245'
+p442
+S'grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus'
+p443
+tp444
+sI148
+(S'n02071294'
+p445
+S'killer whale, killer, orca, grampus, sea wolf, Orcinus orca'
+p446
+tp447
+sI149
+(S'n02074367'
+p448
+S'dugong, Dugong dugon'
+p449
+tp450
+sI150
+(S'n02077923'
+p451
+S'sea lion'
+p452
+tp453
+sI151
+(S'n02085620'
+p454
+S'Chihuahua'
+p455
+tp456
+sI152
+(S'n02085782'
+p457
+S'Japanese spaniel'
+p458
+tp459
+sI153
+(S'n02085936'
+p460
+S'Maltese dog, Maltese terrier, Maltese'
+p461
+tp462
+sI154
+(S'n02086079'
+p463
+S'Pekinese, Pekingese, Peke'
+p464
+tp465
+sI155
+(S'n02086240'
+p466
+S'Shih-Tzu'
+p467
+tp468
+sI156
+(S'n02086646'
+p469
+S'Blenheim spaniel'
+p470
+tp471
+sI157
+(S'n02086910'
+p472
+S'papillon'
+p473
+tp474
+sI158
+(S'n02087046'
+p475
+S'toy terrier'
+p476
+tp477
+sI159
+(S'n02087394'
+p478
+S'Rhodesian ridgeback'
+p479
+tp480
+sI160
+(S'n02088094'
+p481
+S'Afghan hound, Afghan'
+p482
+tp483
+sI161
+(S'n02088238'
+p484
+S'basset, basset hound'
+p485
+tp486
+sI162
+(S'n02088364'
+p487
+S'beagle'
+p488
+tp489
+sI163
+(S'n02088466'
+p490
+S'bloodhound, sleuthhound'
+p491
+tp492
+sI164
+(S'n02088632'
+p493
+S'bluetick'
+p494
+tp495
+sI165
+(S'n02089078'
+p496
+S'black-and-tan coonhound'
+p497
+tp498
+sI166
+(S'n02089867'
+p499
+S'Walker hound, Walker foxhound'
+p500
+tp501
+sI167
+(S'n02089973'
+p502
+S'English foxhound'
+p503
+tp504
+sI168
+(S'n02090379'
+p505
+S'redbone'
+p506
+tp507
+sI169
+(S'n02090622'
+p508
+S'borzoi, Russian wolfhound'
+p509
+tp510
+sI170
+(S'n02090721'
+p511
+S'Irish wolfhound'
+p512
+tp513
+sI171
+(S'n02091032'
+p514
+S'Italian greyhound'
+p515
+tp516
+sI172
+(S'n02091134'
+p517
+S'whippet'
+p518
+tp519
+sI173
+(S'n02091244'
+p520
+S'Ibizan hound, Ibizan Podenco'
+p521
+tp522
+sI174
+(S'n02091467'
+p523
+S'Norwegian elkhound, elkhound'
+p524
+tp525
+sI175
+(S'n02091635'
+p526
+S'otterhound, otter hound'
+p527
+tp528
+sI176
+(S'n02091831'
+p529
+S'Saluki, gazelle hound'
+p530
+tp531
+sI177
+(S'n02092002'
+p532
+S'Scottish deerhound, deerhound'
+p533
+tp534
+sI178
+(S'n02092339'
+p535
+S'Weimaraner'
+p536
+tp537
+sI179
+(S'n02093256'
+p538
+S'Staffordshire bullterrier, Staffordshire bull terrier'
+p539
+tp540
+sI180
+(S'n02093428'
+p541
+S'American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier'
+p542
+tp543
+sI181
+(S'n02093647'
+p544
+S'Bedlington terrier'
+p545
+tp546
+sI182
+(S'n02093754'
+p547
+S'Border terrier'
+p548
+tp549
+sI183
+(S'n02093859'
+p550
+S'Kerry blue terrier'
+p551
+tp552
+sI184
+(S'n02093991'
+p553
+S'Irish terrier'
+p554
+tp555
+sI185
+(S'n02094114'
+p556
+S'Norfolk terrier'
+p557
+tp558
+sI186
+(S'n02094258'
+p559
+S'Norwich terrier'
+p560
+tp561
+sI187
+(S'n02094433'
+p562
+S'Yorkshire terrier'
+p563
+tp564
+sI188
+(S'n02095314'
+p565
+S'wire-haired fox terrier'
+p566
+tp567
+sI189
+(S'n02095570'
+p568
+S'Lakeland terrier'
+p569
+tp570
+sI190
+(S'n02095889'
+p571
+S'Sealyham terrier, Sealyham'
+p572
+tp573
+sI191
+(S'n02096051'
+p574
+S'Airedale, Airedale terrier'
+p575
+tp576
+sI192
+(S'n02096177'
+p577
+S'cairn, cairn terrier'
+p578
+tp579
+sI193
+(S'n02096294'
+p580
+S'Australian terrier'
+p581
+tp582
+sI194
+(S'n02096437'
+p583
+S'Dandie Dinmont, Dandie Dinmont terrier'
+p584
+tp585
+sI195
+(S'n02096585'
+p586
+S'Boston bull, Boston terrier'
+p587
+tp588
+sI196
+(S'n02097047'
+p589
+S'miniature schnauzer'
+p590
+tp591
+sI197
+(S'n02097130'
+p592
+S'giant schnauzer'
+p593
+tp594
+sI198
+(S'n02097209'
+p595
+S'standard schnauzer'
+p596
+tp597
+sI199
+(S'n02097298'
+p598
+S'Scotch terrier, Scottish terrier, Scottie'
+p599
+tp600
+sI200
+(S'n02097474'
+p601
+S'Tibetan terrier, chrysanthemum dog'
+p602
+tp603
+sI201
+(S'n02097658'
+p604
+S'silky terrier, Sydney silky'
+p605
+tp606
+sI202
+(S'n02098105'
+p607
+S'soft-coated wheaten terrier'
+p608
+tp609
+sI203
+(S'n02098286'
+p610
+S'West Highland white terrier'
+p611
+tp612
+sI204
+(S'n02098413'
+p613
+S'Lhasa, Lhasa apso'
+p614
+tp615
+sI205
+(S'n02099267'
+p616
+S'flat-coated retriever'
+p617
+tp618
+sI206
+(S'n02099429'
+p619
+S'curly-coated retriever'
+p620
+tp621
+sI207
+(S'n02099601'
+p622
+S'golden retriever'
+p623
+tp624
+sI208
+(S'n02099712'
+p625
+S'Labrador retriever'
+p626
+tp627
+sI209
+(S'n02099849'
+p628
+S'Chesapeake Bay retriever'
+p629
+tp630
+sI210
+(S'n02100236'
+p631
+S'German short-haired pointer'
+p632
+tp633
+sI211
+(S'n02100583'
+p634
+S'vizsla, Hungarian pointer'
+p635
+tp636
+sI212
+(S'n02100735'
+p637
+S'English setter'
+p638
+tp639
+sI213
+(S'n02100877'
+p640
+S'Irish setter, red setter'
+p641
+tp642
+sI214
+(S'n02101006'
+p643
+S'Gordon setter'
+p644
+tp645
+sI215
+(S'n02101388'
+p646
+S'Brittany spaniel'
+p647
+tp648
+sI216
+(S'n02101556'
+p649
+S'clumber, clumber spaniel'
+p650
+tp651
+sI217
+(S'n02102040'
+p652
+S'English springer, English springer spaniel'
+p653
+tp654
+sI218
+(S'n02102177'
+p655
+S'Welsh springer spaniel'
+p656
+tp657
+sI219
+(S'n02102318'
+p658
+S'cocker spaniel, English cocker spaniel, cocker'
+p659
+tp660
+sI220
+(S'n02102480'
+p661
+S'Sussex spaniel'
+p662
+tp663
+sI221
+(S'n02102973'
+p664
+S'Irish water spaniel'
+p665
+tp666
+sI222
+(S'n02104029'
+p667
+S'kuvasz'
+p668
+tp669
+sI223
+(S'n02104365'
+p670
+S'schipperke'
+p671
+tp672
+sI224
+(S'n02105056'
+p673
+S'groenendael'
+p674
+tp675
+sI225
+(S'n02105162'
+p676
+S'malinois'
+p677
+tp678
+sI226
+(S'n02105251'
+p679
+S'briard'
+p680
+tp681
+sI227
+(S'n02105412'
+p682
+S'kelpie'
+p683
+tp684
+sI228
+(S'n02105505'
+p685
+S'komondor'
+p686
+tp687
+sI229
+(S'n02105641'
+p688
+S'Old English sheepdog, bobtail'
+p689
+tp690
+sI230
+(S'n02105855'
+p691
+S'Shetland sheepdog, Shetland sheep dog, Shetland'
+p692
+tp693
+sI231
+(S'n02106030'
+p694
+S'collie'
+p695
+tp696
+sI232
+(S'n02106166'
+p697
+S'Border collie'
+p698
+tp699
+sI233
+(S'n02106382'
+p700
+S'Bouvier des Flandres, Bouviers des Flandres'
+p701
+tp702
+sI234
+(S'n02106550'
+p703
+S'Rottweiler'
+p704
+tp705
+sI235
+(S'n02106662'
+p706
+S'German shepherd, German shepherd dog, German police dog, alsatian'
+p707
+tp708
+sI236
+(S'n02107142'
+p709
+S'Doberman, Doberman pinscher'
+p710
+tp711
+sI237
+(S'n02107312'
+p712
+S'miniature pinscher'
+p713
+tp714
+sI238
+(S'n02107574'
+p715
+S'Greater Swiss Mountain dog'
+p716
+tp717
+sI239
+(S'n02107683'
+p718
+S'Bernese mountain dog'
+p719
+tp720
+sI240
+(S'n02107908'
+p721
+S'Appenzeller'
+p722
+tp723
+sI241
+(S'n02108000'
+p724
+S'EntleBucher'
+p725
+tp726
+sI242
+(S'n02108089'
+p727
+S'boxer'
+p728
+tp729
+sI243
+(S'n02108422'
+p730
+S'bull mastiff'
+p731
+tp732
+sI244
+(S'n02108551'
+p733
+S'Tibetan mastiff'
+p734
+tp735
+sI245
+(S'n02108915'
+p736
+S'French bulldog'
+p737
+tp738
+sI246
+(S'n02109047'
+p739
+S'Great Dane'
+p740
+tp741
+sI247
+(S'n02109525'
+p742
+S'Saint Bernard, St Bernard'
+p743
+tp744
+sI248
+(S'n02109961'
+p745
+S'Eskimo dog, husky'
+p746
+tp747
+sI249
+(S'n02110063'
+p748
+S'malamute, malemute, Alaskan malamute'
+p749
+tp750
+sI250
+(S'n02110185'
+p751
+S'Siberian husky'
+p752
+tp753
+sI251
+(S'n02110341'
+p754
+S'dalmatian, coach dog, carriage dog'
+p755
+tp756
+sI252
+(S'n02110627'
+p757
+S'affenpinscher, monkey pinscher, monkey dog'
+p758
+tp759
+sI253
+(S'n02110806'
+p760
+S'basenji'
+p761
+tp762
+sI254
+(S'n02110958'
+p763
+S'pug, pug-dog'
+p764
+tp765
+sI255
+(S'n02111129'
+p766
+S'Leonberg'
+p767
+tp768
+sI256
+(S'n02111277'
+p769
+S'Newfoundland, Newfoundland dog'
+p770
+tp771
+sI257
+(S'n02111500'
+p772
+S'Great Pyrenees'
+p773
+tp774
+sI258
+(S'n02111889'
+p775
+S'Samoyed, Samoyede'
+p776
+tp777
+sI259
+(S'n02112018'
+p778
+S'Pomeranian'
+p779
+tp780
+sI260
+(S'n02112137'
+p781
+S'chow, chow chow'
+p782
+tp783
+sI261
+(S'n02112350'
+p784
+S'keeshond'
+p785
+tp786
+sI262
+(S'n02112706'
+p787
+S'Brabancon griffon'
+p788
+tp789
+sI263
+(S'n02113023'
+p790
+S'Pembroke, Pembroke Welsh corgi'
+p791
+tp792
+sI264
+(S'n02113186'
+p793
+S'Cardigan, Cardigan Welsh corgi'
+p794
+tp795
+sI265
+(S'n02113624'
+p796
+S'toy poodle'
+p797
+tp798
+sI266
+(S'n02113712'
+p799
+S'miniature poodle'
+p800
+tp801
+sI267
+(S'n02113799'
+p802
+S'standard poodle'
+p803
+tp804
+sI268
+(S'n02113978'
+p805
+S'Mexican hairless'
+p806
+tp807
+sI269
+(S'n02114367'
+p808
+S'timber wolf, grey wolf, gray wolf, Canis lupus'
+p809
+tp810
+sI270
+(S'n02114548'
+p811
+S'white wolf, Arctic wolf, Canis lupus tundrarum'
+p812
+tp813
+sI271
+(S'n02114712'
+p814
+S'red wolf, maned wolf, Canis rufus, Canis niger'
+p815
+tp816
+sI272
+(S'n02114855'
+p817
+S'coyote, prairie wolf, brush wolf, Canis latrans'
+p818
+tp819
+sI273
+(S'n02115641'
+p820
+S'dingo, warrigal, warragal, Canis dingo'
+p821
+tp822
+sI274
+(S'n02115913'
+p823
+S'dhole, Cuon alpinus'
+p824
+tp825
+sI275
+(S'n02116738'
+p826
+S'African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus'
+p827
+tp828
+sI276
+(S'n02117135'
+p829
+S'hyena, hyaena'
+p830
+tp831
+sI277
+(S'n02119022'
+p832
+S'red fox, Vulpes vulpes'
+p833
+tp834
+sI278
+(S'n02119789'
+p835
+S'kit fox, Vulpes macrotis'
+p836
+tp837
+sI279
+(S'n02120079'
+p838
+S'Arctic fox, white fox, Alopex lagopus'
+p839
+tp840
+sI280
+(S'n02120505'
+p841
+S'grey fox, gray fox, Urocyon cinereoargenteus'
+p842
+tp843
+sI281
+(S'n02123045'
+p844
+S'tabby, tabby cat'
+p845
+tp846
+sI282
+(S'n02123159'
+p847
+S'tiger cat'
+p848
+tp849
+sI283
+(S'n02123394'
+p850
+S'Persian cat'
+p851
+tp852
+sI284
+(S'n02123597'
+p853
+S'Siamese cat, Siamese'
+p854
+tp855
+sI285
+(S'n02124075'
+p856
+S'Egyptian cat'
+p857
+tp858
+sI286
+(S'n02125311'
+p859
+S'cougar, puma, catamount, mountain lion, painter, panther, Felis concolor'
+p860
+tp861
+sI287
+(S'n02127052'
+p862
+S'lynx, catamount'
+p863
+tp864
+sI288
+(S'n02128385'
+p865
+S'leopard, Panthera pardus'
+p866
+tp867
+sI289
+(S'n02128757'
+p868
+S'snow leopard, ounce, Panthera uncia'
+p869
+tp870
+sI290
+(S'n02128925'
+p871
+S'jaguar, panther, Panthera onca, Felis onca'
+p872
+tp873
+sI291
+(S'n02129165'
+p874
+S'lion, king of beasts, Panthera leo'
+p875
+tp876
+sI292
+(S'n02129604'
+p877
+S'tiger, Panthera tigris'
+p878
+tp879
+sI293
+(S'n02130308'
+p880
+S'cheetah, chetah, Acinonyx jubatus'
+p881
+tp882
+sI294
+(S'n02132136'
+p883
+S'brown bear, bruin, Ursus arctos'
+p884
+tp885
+sI295
+(S'n02133161'
+p886
+S'American black bear, black bear, Ursus americanus, Euarctos americanus'
+p887
+tp888
+sI296
+(S'n02134084'
+p889
+S'ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus'
+p890
+tp891
+sI297
+(S'n02134418'
+p892
+S'sloth bear, Melursus ursinus, Ursus ursinus'
+p893
+tp894
+sI298
+(S'n02137549'
+p895
+S'mongoose'
+p896
+tp897
+sI299
+(S'n02138441'
+p898
+S'meerkat, mierkat'
+p899
+tp900
+sI300
+(S'n02165105'
+p901
+S'tiger beetle'
+p902
+tp903
+sI301
+(S'n02165456'
+p904
+S'ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle'
+p905
+tp906
+sI302
+(S'n02167151'
+p907
+S'ground beetle, carabid beetle'
+p908
+tp909
+sI303
+(S'n02168699'
+p910
+S'long-horned beetle, longicorn, longicorn beetle'
+p911
+tp912
+sI304
+(S'n02169497'
+p913
+S'leaf beetle, chrysomelid'
+p914
+tp915
+sI305
+(S'n02172182'
+p916
+S'dung beetle'
+p917
+tp918
+sI306
+(S'n02174001'
+p919
+S'rhinoceros beetle'
+p920
+tp921
+sI307
+(S'n02177972'
+p922
+S'weevil'
+p923
+tp924
+sI308
+(S'n02190166'
+p925
+S'fly'
+p926
+tp927
+sI309
+(S'n02206856'
+p928
+S'bee'
+p929
+tp930
+sI310
+(S'n02219486'
+p931
+S'ant, emmet, pismire'
+p932
+tp933
+sI311
+(S'n02226429'
+p934
+S'grasshopper, hopper'
+p935
+tp936
+sI312
+(S'n02229544'
+p937
+S'cricket'
+p938
+tp939
+sI313
+(S'n02231487'
+p940
+S'walking stick, walkingstick, stick insect'
+p941
+tp942
+sI314
+(S'n02233338'
+p943
+S'cockroach, roach'
+p944
+tp945
+sI315
+(S'n02236044'
+p946
+S'mantis, mantid'
+p947
+tp948
+sI316
+(S'n02256656'
+p949
+S'cicada, cicala'
+p950
+tp951
+sI317
+(S'n02259212'
+p952
+S'leafhopper'
+p953
+tp954
+sI318
+(S'n02264363'
+p955
+S'lacewing, lacewing fly'
+p956
+tp957
+sI319
+(S'n02268443'
+p958
+S"dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk"
+p959
+tp960
+sI320
+(S'n02268853'
+p961
+S'damselfly'
+p962
+tp963
+sI321
+(S'n02276258'
+p964
+S'admiral'
+p965
+tp966
+sI322
+(S'n02277742'
+p967
+S'ringlet, ringlet butterfly'
+p968
+tp969
+sI323
+(S'n02279972'
+p970
+S'monarch, monarch butterfly, milkweed butterfly, Danaus plexippus'
+p971
+tp972
+sI324
+(S'n02280649'
+p973
+S'cabbage butterfly'
+p974
+tp975
+sI325
+(S'n02281406'
+p976
+S'sulphur butterfly, sulfur butterfly'
+p977
+tp978
+sI326
+(S'n02281787'
+p979
+S'lycaenid, lycaenid butterfly'
+p980
+tp981
+sI327
+(S'n02317335'
+p982
+S'starfish, sea star'
+p983
+tp984
+sI328
+(S'n02319095'
+p985
+S'sea urchin'
+p986
+tp987
+sI329
+(S'n02321529'
+p988
+S'sea cucumber, holothurian'
+p989
+tp990
+sI330
+(S'n02325366'
+p991
+S'wood rabbit, cottontail, cottontail rabbit'
+p992
+tp993
+sI331
+(S'n02326432'
+p994
+S'hare'
+p995
+tp996
+sI332
+(S'n02328150'
+p997
+S'Angora, Angora rabbit'
+p998
+tp999
+sI333
+(S'n02342885'
+p1000
+S'hamster'
+p1001
+tp1002
+sI334
+(S'n02346627'
+p1003
+S'porcupine, hedgehog'
+p1004
+tp1005
+sI335
+(S'n02356798'
+p1006
+S'fox squirrel, eastern fox squirrel, Sciurus niger'
+p1007
+tp1008
+sI336
+(S'n02361337'
+p1009
+S'marmot'
+p1010
+tp1011
+sI337
+(S'n02363005'
+p1012
+S'beaver'
+p1013
+tp1014
+sI338
+(S'n02364673'
+p1015
+S'guinea pig, Cavia cobaya'
+p1016
+tp1017
+sI339
+(S'n02389026'
+p1018
+S'sorrel'
+p1019
+tp1020
+sI340
+(S'n02391049'
+p1021
+S'zebra'
+p1022
+tp1023
+sI341
+(S'n02395406'
+p1024
+S'hog, pig, grunter, squealer, Sus scrofa'
+p1025
+tp1026
+sI342
+(S'n02396427'
+p1027
+S'wild boar, boar, Sus scrofa'
+p1028
+tp1029
+sI343
+(S'n02397096'
+p1030
+S'warthog'
+p1031
+tp1032
+sI344
+(S'n02398521'
+p1033
+S'hippopotamus, hippo, river horse, Hippopotamus amphibius'
+p1034
+tp1035
+sI345
+(S'n02403003'
+p1036
+S'ox'
+p1037
+tp1038
+sI346
+(S'n02408429'
+p1039
+S'water buffalo, water ox, Asiatic buffalo, Bubalus bubalis'
+p1040
+tp1041
+sI347
+(S'n02410509'
+p1042
+S'bison'
+p1043
+tp1044
+sI348
+(S'n02412080'
+p1045
+S'ram, tup'
+p1046
+tp1047
+sI349
+(S'n02415577'
+p1048
+S'bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis'
+p1049
+tp1050
+sI350
+(S'n02417914'
+p1051
+S'ibex, Capra ibex'
+p1052
+tp1053
+sI351
+(S'n02422106'
+p1054
+S'hartebeest'
+p1055
+tp1056
+sI352
+(S'n02422699'
+p1057
+S'impala, Aepyceros melampus'
+p1058
+tp1059
+sI353
+(S'n02423022'
+p1060
+S'gazelle'
+p1061
+tp1062
+sI354
+(S'n02437312'
+p1063
+S'Arabian camel, dromedary, Camelus dromedarius'
+p1064
+tp1065
+sI355
+(S'n02437616'
+p1066
+S'llama'
+p1067
+tp1068
+sI356
+(S'n02441942'
+p1069
+S'weasel'
+p1070
+tp1071
+sI357
+(S'n02442845'
+p1072
+S'mink'
+p1073
+tp1074
+sI358
+(S'n02443114'
+p1075
+S'polecat, fitch, foulmart, foumart, Mustela putorius'
+p1076
+tp1077
+sI359
+(S'n02443484'
+p1078
+S'black-footed ferret, ferret, Mustela nigripes'
+p1079
+tp1080
+sI360
+(S'n02444819'
+p1081
+S'otter'
+p1082
+tp1083
+sI361
+(S'n02445715'
+p1084
+S'skunk, polecat, wood pussy'
+p1085
+tp1086
+sI362
+(S'n02447366'
+p1087
+S'badger'
+p1088
+tp1089
+sI363
+(S'n02454379'
+p1090
+S'armadillo'
+p1091
+tp1092
+sI364
+(S'n02457408'
+p1093
+S'three-toed sloth, ai, Bradypus tridactylus'
+p1094
+tp1095
+sI365
+(S'n02480495'
+p1096
+S'orangutan, orang, orangutang, Pongo pygmaeus'
+p1097
+tp1098
+sI366
+(S'n02480855'
+p1099
+S'gorilla, Gorilla gorilla'
+p1100
+tp1101
+sI367
+(S'n02481823'
+p1102
+S'chimpanzee, chimp, Pan troglodytes'
+p1103
+tp1104
+sI368
+(S'n02483362'
+p1105
+S'gibbon, Hylobates lar'
+p1106
+tp1107
+sI369
+(S'n02483708'
+p1108
+S'siamang, Hylobates syndactylus, Symphalangus syndactylus'
+p1109
+tp1110
+sI370
+(S'n02484975'
+p1111
+S'guenon, guenon monkey'
+p1112
+tp1113
+sI371
+(S'n02486261'
+p1114
+S'patas, hussar monkey, Erythrocebus patas'
+p1115
+tp1116
+sI372
+(S'n02486410'
+p1117
+S'baboon'
+p1118
+tp1119
+sI373
+(S'n02487347'
+p1120
+S'macaque'
+p1121
+tp1122
+sI374
+(S'n02488291'
+p1123
+S'langur'
+p1124
+tp1125
+sI375
+(S'n02488702'
+p1126
+S'colobus, colobus monkey'
+p1127
+tp1128
+sI376
+(S'n02489166'
+p1129
+S'proboscis monkey, Nasalis larvatus'
+p1130
+tp1131
+sI377
+(S'n02490219'
+p1132
+S'marmoset'
+p1133
+tp1134
+sI378
+(S'n02492035'
+p1135
+S'capuchin, ringtail, Cebus capucinus'
+p1136
+tp1137
+sI379
+(S'n02492660'
+p1138
+S'howler monkey, howler'
+p1139
+tp1140
+sI380
+(S'n02493509'
+p1141
+S'titi, titi monkey'
+p1142
+tp1143
+sI381
+(S'n02493793'
+p1144
+S'spider monkey, Ateles geoffroyi'
+p1145
+tp1146
+sI382
+(S'n02494079'
+p1147
+S'squirrel monkey, Saimiri sciureus'
+p1148
+tp1149
+sI383
+(S'n02497673'
+p1150
+S'Madagascar cat, ring-tailed lemur, Lemur catta'
+p1151
+tp1152
+sI384
+(S'n02500267'
+p1153
+S'indri, indris, Indri indri, Indri brevicaudatus'
+p1154
+tp1155
+sI385
+(S'n02504013'
+p1156
+S'Indian elephant, Elephas maximus'
+p1157
+tp1158
+sI386
+(S'n02504458'
+p1159
+S'African elephant, Loxodonta africana'
+p1160
+tp1161
+sI387
+(S'n02509815'
+p1162
+S'lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens'
+p1163
+tp1164
+sI388
+(S'n02510455'
+p1165
+S'giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca'
+p1166
+tp1167
+sI389
+(S'n02514041'
+p1168
+S'barracouta, snoek'
+p1169
+tp1170
+sI390
+(S'n02526121'
+p1171
+S'eel'
+p1172
+tp1173
+sI391
+(S'n02536864'
+p1174
+S'coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch'
+p1175
+tp1176
+sI392
+(S'n02606052'
+p1177
+S'rock beauty, Holocanthus tricolor'
+p1178
+tp1179
+sI393
+(S'n02607072'
+p1180
+S'anemone fish'
+p1181
+tp1182
+sI394
+(S'n02640242'
+p1183
+S'sturgeon'
+p1184
+tp1185
+sI395
+(S'n02641379'
+p1186
+S'gar, garfish, garpike, billfish, Lepisosteus osseus'
+p1187
+tp1188
+sI396
+(S'n02643566'
+p1189
+S'lionfish'
+p1190
+tp1191
+sI397
+(S'n02655020'
+p1192
+S'puffer, pufferfish, blowfish, globefish'
+p1193
+tp1194
+sI398
+(S'n02666196'
+p1195
+S'abacus'
+p1196
+tp1197
+sI399
+(S'n02667093'
+p1198
+S'abaya'
+p1199
+tp1200
+sI400
+(S'n02669723'
+p1201
+S"academic gown, academic robe, judge's robe"
+p1202
+tp1203
+sI401
+(S'n02672831'
+p1204
+S'accordion, piano accordion, squeeze box'
+p1205
+tp1206
+sI402
+(S'n02676566'
+p1207
+S'acoustic guitar'
+p1208
+tp1209
+sI403
+(S'n02687172'
+p1210
+S'aircraft carrier, carrier, flattop, attack aircraft carrier'
+p1211
+tp1212
+sI404
+(S'n02690373'
+p1213
+S'airliner'
+p1214
+tp1215
+sI405
+(S'n02692877'
+p1216
+S'airship, dirigible'
+p1217
+tp1218
+sI406
+(S'n02699494'
+p1219
+S'altar'
+p1220
+tp1221
+sI407
+(S'n02701002'
+p1222
+S'ambulance'
+p1223
+tp1224
+sI408
+(S'n02704792'
+p1225
+S'amphibian, amphibious vehicle'
+p1226
+tp1227
+sI409
+(S'n02708093'
+p1228
+S'analog clock'
+p1229
+tp1230
+sI410
+(S'n02727426'
+p1231
+S'apiary, bee house'
+p1232
+tp1233
+sI411
+(S'n02730930'
+p1234
+S'apron'
+p1235
+tp1236
+sI412
+(S'n02747177'
+p1237
+S'ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin'
+p1238
+tp1239
+sI413
+(S'n02749479'
+p1240
+S'assault rifle, assault gun'
+p1241
+tp1242
+sI414
+(S'n02769748'
+p1243
+S'backpack, back pack, knapsack, packsack, rucksack, haversack'
+p1244
+tp1245
+sI415
+(S'n02776631'
+p1246
+S'bakery, bakeshop, bakehouse'
+p1247
+tp1248
+sI416
+(S'n02777292'
+p1249
+S'balance beam, beam'
+p1250
+tp1251
+sI417
+(S'n02782093'
+p1252
+S'balloon'
+p1253
+tp1254
+sI418
+(S'n02783161'
+p1255
+S'ballpoint, ballpoint pen, ballpen, Biro'
+p1256
+tp1257
+sI419
+(S'n02786058'
+p1258
+S'Band Aid'
+p1259
+tp1260
+sI420
+(S'n02787622'
+p1261
+S'banjo'
+p1262
+tp1263
+sI421
+(S'n02788148'
+p1264
+S'bannister, banister, balustrade, balusters, handrail'
+p1265
+tp1266
+sI422
+(S'n02790996'
+p1267
+S'barbell'
+p1268
+tp1269
+sI423
+(S'n02791124'
+p1270
+S'barber chair'
+p1271
+tp1272
+sI424
+(S'n02791270'
+p1273
+S'barbershop'
+p1274
+tp1275
+sI425
+(S'n02793495'
+p1276
+S'barn'
+p1277
+tp1278
+sI426
+(S'n02794156'
+p1279
+S'barometer'
+p1280
+tp1281
+sI427
+(S'n02795169'
+p1282
+S'barrel, cask'
+p1283
+tp1284
+sI428
+(S'n02797295'
+p1285
+S'barrow, garden cart, lawn cart, wheelbarrow'
+p1286
+tp1287
+sI429
+(S'n02799071'
+p1288
+S'baseball'
+p1289
+tp1290
+sI430
+(S'n02802426'
+p1291
+S'basketball'
+p1292
+tp1293
+sI431
+(S'n02804414'
+p1294
+S'bassinet'
+p1295
+tp1296
+sI432
+(S'n02804610'
+p1297
+S'bassoon'
+p1298
+tp1299
+sI433
+(S'n02807133'
+p1300
+S'bathing cap, swimming cap'
+p1301
+tp1302
+sI434
+(S'n02808304'
+p1303
+S'bath towel'
+p1304
+tp1305
+sI435
+(S'n02808440'
+p1306
+S'bathtub, bathing tub, bath, tub'
+p1307
+tp1308
+sI436
+(S'n02814533'
+p1309
+S'beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon'
+p1310
+tp1311
+sI437
+(S'n02814860'
+p1312
+S'beacon, lighthouse, beacon light, pharos'
+p1313
+tp1314
+sI438
+(S'n02815834'
+p1315
+S'beaker'
+p1316
+tp1317
+sI439
+(S'n02817516'
+p1318
+S'bearskin, busby, shako'
+p1319
+tp1320
+sI440
+(S'n02823428'
+p1321
+S'beer bottle'
+p1322
+tp1323
+sI441
+(S'n02823750'
+p1324
+S'beer glass'
+p1325
+tp1326
+sI442
+(S'n02825657'
+p1327
+S'bell cote, bell cot'
+p1328
+tp1329
+sI443
+(S'n02834397'
+p1330
+S'bib'
+p1331
+tp1332
+sI444
+(S'n02835271'
+p1333
+S'bicycle-built-for-two, tandem bicycle, tandem'
+p1334
+tp1335
+sI445
+(S'n02837789'
+p1336
+S'bikini, two-piece'
+p1337
+tp1338
+sI446
+(S'n02840245'
+p1339
+S'binder, ring-binder'
+p1340
+tp1341
+sI447
+(S'n02841315'
+p1342
+S'binoculars, field glasses, opera glasses'
+p1343
+tp1344
+sI448
+(S'n02843684'
+p1345
+S'birdhouse'
+p1346
+tp1347
+sI449
+(S'n02859443'
+p1348
+S'boathouse'
+p1349
+tp1350
+sI450
+(S'n02860847'
+p1351
+S'bobsled, bobsleigh, bob'
+p1352
+tp1353
+sI451
+(S'n02865351'
+p1354
+S'bolo tie, bolo, bola tie, bola'
+p1355
+tp1356
+sI452
+(S'n02869837'
+p1357
+S'bonnet, poke bonnet'
+p1358
+tp1359
+sI453
+(S'n02870880'
+p1360
+S'bookcase'
+p1361
+tp1362
+sI454
+(S'n02871525'
+p1363
+S'bookshop, bookstore, bookstall'
+p1364
+tp1365
+sI455
+(S'n02877765'
+p1366
+S'bottlecap'
+p1367
+tp1368
+sI456
+(S'n02879718'
+p1369
+S'bow'
+p1370
+tp1371
+sI457
+(S'n02883205'
+p1372
+S'bow tie, bow-tie, bowtie'
+p1373
+tp1374
+sI458
+(S'n02892201'
+p1375
+S'brass, memorial tablet, plaque'
+p1376
+tp1377
+sI459
+(S'n02892767'
+p1378
+S'brassiere, bra, bandeau'
+p1379
+tp1380
+sI460
+(S'n02894605'
+p1381
+S'breakwater, groin, groyne, mole, bulwark, seawall, jetty'
+p1382
+tp1383
+sI461
+(S'n02895154'
+p1384
+S'breastplate, aegis, egis'
+p1385
+tp1386
+sI462
+(S'n02906734'
+p1387
+S'broom'
+p1388
+tp1389
+sI463
+(S'n02909870'
+p1390
+S'bucket, pail'
+p1391
+tp1392
+sI464
+(S'n02910353'
+p1393
+S'buckle'
+p1394
+tp1395
+sI465
+(S'n02916936'
+p1396
+S'bulletproof vest'
+p1397
+tp1398
+sI466
+(S'n02917067'
+p1399
+S'bullet train, bullet'
+p1400
+tp1401
+sI467
+(S'n02927161'
+p1402
+S'butcher shop, meat market'
+p1403
+tp1404
+sI468
+(S'n02930766'
+p1405
+S'cab, hack, taxi, taxicab'
+p1406
+tp1407
+sI469
+(S'n02939185'
+p1408
+S'caldron, cauldron'
+p1409
+tp1410
+sI470
+(S'n02948072'
+p1411
+S'candle, taper, wax light'
+p1412
+tp1413
+sI471
+(S'n02950826'
+p1414
+S'cannon'
+p1415
+tp1416
+sI472
+(S'n02951358'
+p1417
+S'canoe'
+p1418
+tp1419
+sI473
+(S'n02951585'
+p1420
+S'can opener, tin opener'
+p1421
+tp1422
+sI474
+(S'n02963159'
+p1423
+S'cardigan'
+p1424
+tp1425
+sI475
+(S'n02965783'
+p1426
+S'car mirror'
+p1427
+tp1428
+sI476
+(S'n02966193'
+p1429
+S'carousel, carrousel, merry-go-round, roundabout, whirligig'
+p1430
+tp1431
+sI477
+(S'n02966687'
+p1432
+S"carpenter's kit, tool kit"
+p1433
+tp1434
+sI478
+(S'n02971356'
+p1435
+S'carton'
+p1436
+tp1437
+sI479
+(S'n02974003'
+p1438
+S'car wheel'
+p1439
+tp1440
+sI480
+(S'n02977058'
+p1441
+S'cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM'
+p1442
+tp1443
+sI481
+(S'n02978881'
+p1444
+S'cassette'
+p1445
+tp1446
+sI482
+(S'n02979186'
+p1447
+S'cassette player'
+p1448
+tp1449
+sI483
+(S'n02980441'
+p1450
+S'castle'
+p1451
+tp1452
+sI484
+(S'n02981792'
+p1453
+S'catamaran'
+p1454
+tp1455
+sI485
+(S'n02988304'
+p1456
+S'CD player'
+p1457
+tp1458
+sI486
+(S'n02992211'
+p1459
+S'cello, violoncello'
+p1460
+tp1461
+sI487
+(S'n02992529'
+p1462
+S'cellular telephone, cellular phone, cellphone, cell, mobile phone'
+p1463
+tp1464
+sI488
+(S'n02999410'
+p1465
+S'chain'
+p1466
+tp1467
+sI489
+(S'n03000134'
+p1468
+S'chainlink fence'
+p1469
+tp1470
+sI490
+(S'n03000247'
+p1471
+S'chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour'
+p1472
+tp1473
+sI491
+(S'n03000684'
+p1474
+S'chain saw, chainsaw'
+p1475
+tp1476
+sI492
+(S'n03014705'
+p1477
+S'chest'
+p1478
+tp1479
+sI493
+(S'n03016953'
+p1480
+S'chiffonier, commode'
+p1481
+tp1482
+sI494
+(S'n03017168'
+p1483
+S'chime, bell, gong'
+p1484
+tp1485
+sI495
+(S'n03018349'
+p1486
+S'china cabinet, china closet'
+p1487
+tp1488
+sI496
+(S'n03026506'
+p1489
+S'Christmas stocking'
+p1490
+tp1491
+sI497
+(S'n03028079'
+p1492
+S'church, church building'
+p1493
+tp1494
+sI498
+(S'n03032252'
+p1495
+S'cinema, movie theater, movie theatre, movie house, picture palace'
+p1496
+tp1497
+sI499
+(S'n03041632'
+p1498
+S'cleaver, meat cleaver, chopper'
+p1499
+tp1500
+sI500
+(S'n03042490'
+p1501
+S'cliff dwelling'
+p1502
+tp1503
+sI501
+(S'n03045698'
+p1504
+S'cloak'
+p1505
+tp1506
+sI502
+(S'n03047690'
+p1507
+S'clog, geta, patten, sabot'
+p1508
+tp1509
+sI503
+(S'n03062245'
+p1510
+S'cocktail shaker'
+p1511
+tp1512
+sI504
+(S'n03063599'
+p1513
+S'coffee mug'
+p1514
+tp1515
+sI505
+(S'n03063689'
+p1516
+S'coffeepot'
+p1517
+tp1518
+sI506
+(S'n03065424'
+p1519
+S'coil, spiral, volute, whorl, helix'
+p1520
+tp1521
+sI507
+(S'n03075370'
+p1522
+S'combination lock'
+p1523
+tp1524
+sI508
+(S'n03085013'
+p1525
+S'computer keyboard, keypad'
+p1526
+tp1527
+sI509
+(S'n03089624'
+p1528
+S'confectionery, confectionary, candy store'
+p1529
+tp1530
+sI510
+(S'n03095699'
+p1531
+S'container ship, containership, container vessel'
+p1532
+tp1533
+sI511
+(S'n03100240'
+p1534
+S'convertible'
+p1535
+tp1536
+sI512
+(S'n03109150'
+p1537
+S'corkscrew, bottle screw'
+p1538
+tp1539
+sI513
+(S'n03110669'
+p1540
+S'cornet, horn, trumpet, trump'
+p1541
+tp1542
+sI514
+(S'n03124043'
+p1543
+S'cowboy boot'
+p1544
+tp1545
+sI515
+(S'n03124170'
+p1546
+S'cowboy hat, ten-gallon hat'
+p1547
+tp1548
+sI516
+(S'n03125729'
+p1549
+S'cradle'
+p1550
+tp1551
+sI517
+(S'n03126707'
+p1552
+S'crane'
+p1553
+tp1554
+sI518
+(S'n03127747'
+p1555
+S'crash helmet'
+p1556
+tp1557
+sI519
+(S'n03127925'
+p1558
+S'crate'
+p1559
+tp1560
+sI520
+(S'n03131574'
+p1561
+S'crib, cot'
+p1562
+tp1563
+sI521
+(S'n03133878'
+p1564
+S'Crock Pot'
+p1565
+tp1566
+sI522
+(S'n03134739'
+p1567
+S'croquet ball'
+p1568
+tp1569
+sI523
+(S'n03141823'
+p1570
+S'crutch'
+p1571
+tp1572
+sI524
+(S'n03146219'
+p1573
+S'cuirass'
+p1574
+tp1575
+sI525
+(S'n03160309'
+p1576
+S'dam, dike, dyke'
+p1577
+tp1578
+sI526
+(S'n03179701'
+p1579
+S'desk'
+p1580
+tp1581
+sI527
+(S'n03180011'
+p1582
+S'desktop computer'
+p1583
+tp1584
+sI528
+(S'n03187595'
+p1585
+S'dial telephone, dial phone'
+p1586
+tp1587
+sI529
+(S'n03188531'
+p1588
+S'diaper, nappy, napkin'
+p1589
+tp1590
+sI530
+(S'n03196217'
+p1591
+S'digital clock'
+p1592
+tp1593
+sI531
+(S'n03197337'
+p1594
+S'digital watch'
+p1595
+tp1596
+sI532
+(S'n03201208'
+p1597
+S'dining table, board'
+p1598
+tp1599
+sI533
+(S'n03207743'
+p1600
+S'dishrag, dishcloth'
+p1601
+tp1602
+sI534
+(S'n03207941'
+p1603
+S'dishwasher, dish washer, dishwashing machine'
+p1604
+tp1605
+sI535
+(S'n03208938'
+p1606
+S'disk brake, disc brake'
+p1607
+tp1608
+sI536
+(S'n03216828'
+p1609
+S'dock, dockage, docking facility'
+p1610
+tp1611
+sI537
+(S'n03218198'
+p1612
+S'dogsled, dog sled, dog sleigh'
+p1613
+tp1614
+sI538
+(S'n03220513'
+p1615
+S'dome'
+p1616
+tp1617
+sI539
+(S'n03223299'
+p1618
+S'doormat, welcome mat'
+p1619
+tp1620
+sI540
+(S'n03240683'
+p1621
+S'drilling platform, offshore rig'
+p1622
+tp1623
+sI541
+(S'n03249569'
+p1624
+S'drum, membranophone, tympan'
+p1625
+tp1626
+sI542
+(S'n03250847'
+p1627
+S'drumstick'
+p1628
+tp1629
+sI543
+(S'n03255030'
+p1630
+S'dumbbell'
+p1631
+tp1632
+sI544
+(S'n03259280'
+p1633
+S'Dutch oven'
+p1634
+tp1635
+sI545
+(S'n03271574'
+p1636
+S'electric fan, blower'
+p1637
+tp1638
+sI546
+(S'n03272010'
+p1639
+S'electric guitar'
+p1640
+tp1641
+sI547
+(S'n03272562'
+p1642
+S'electric locomotive'
+p1643
+tp1644
+sI548
+(S'n03290653'
+p1645
+S'entertainment center'
+p1646
+tp1647
+sI549
+(S'n03291819'
+p1648
+S'envelope'
+p1649
+tp1650
+sI550
+(S'n03297495'
+p1651
+S'espresso maker'
+p1652
+tp1653
+sI551
+(S'n03314780'
+p1654
+S'face powder'
+p1655
+tp1656
+sI552
+(S'n03325584'
+p1657
+S'feather boa, boa'
+p1658
+tp1659
+sI553
+(S'n03337140'
+p1660
+S'file, file cabinet, filing cabinet'
+p1661
+tp1662
+sI554
+(S'n03344393'
+p1663
+S'fireboat'
+p1664
+tp1665
+sI555
+(S'n03345487'
+p1666
+S'fire engine, fire truck'
+p1667
+tp1668
+sI556
+(S'n03347037'
+p1669
+S'fire screen, fireguard'
+p1670
+tp1671
+sI557
+(S'n03355925'
+p1672
+S'flagpole, flagstaff'
+p1673
+tp1674
+sI558
+(S'n03372029'
+p1675
+S'flute, transverse flute'
+p1676
+tp1677
+sI559
+(S'n03376595'
+p1678
+S'folding chair'
+p1679
+tp1680
+sI560
+(S'n03379051'
+p1681
+S'football helmet'
+p1682
+tp1683
+sI561
+(S'n03384352'
+p1684
+S'forklift'
+p1685
+tp1686
+sI562
+(S'n03388043'
+p1687
+S'fountain'
+p1688
+tp1689
+sI563
+(S'n03388183'
+p1690
+S'fountain pen'
+p1691
+tp1692
+sI564
+(S'n03388549'
+p1693
+S'four-poster'
+p1694
+tp1695
+sI565
+(S'n03393912'
+p1696
+S'freight car'
+p1697
+tp1698
+sI566
+(S'n03394916'
+p1699
+S'French horn, horn'
+p1700
+tp1701
+sI567
+(S'n03400231'
+p1702
+S'frying pan, frypan, skillet'
+p1703
+tp1704
+sI568
+(S'n03404251'
+p1705
+S'fur coat'
+p1706
+tp1707
+sI569
+(S'n03417042'
+p1708
+S'garbage truck, dustcart'
+p1709
+tp1710
+sI570
+(S'n03424325'
+p1711
+S'gasmask, respirator, gas helmet'
+p1712
+tp1713
+sI571
+(S'n03425413'
+p1714
+S'gas pump, gasoline pump, petrol pump, island dispenser'
+p1715
+tp1716
+sI572
+(S'n03443371'
+p1717
+S'goblet'
+p1718
+tp1719
+sI573
+(S'n03444034'
+p1720
+S'go-kart'
+p1721
+tp1722
+sI574
+(S'n03445777'
+p1723
+S'golf ball'
+p1724
+tp1725
+sI575
+(S'n03445924'
+p1726
+S'golfcart, golf cart'
+p1727
+tp1728
+sI576
+(S'n03447447'
+p1729
+S'gondola'
+p1730
+tp1731
+sI577
+(S'n03447721'
+p1732
+S'gong, tam-tam'
+p1733
+tp1734
+sI578
+(S'n03450230'
+p1735
+S'gown'
+p1736
+tp1737
+sI579
+(S'n03452741'
+p1738
+S'grand piano, grand'
+p1739
+tp1740
+sI580
+(S'n03457902'
+p1741
+S'greenhouse, nursery, glasshouse'
+p1742
+tp1743
+sI581
+(S'n03459775'
+p1744
+S'grille, radiator grille'
+p1745
+tp1746
+sI582
+(S'n03461385'
+p1747
+S'grocery store, grocery, food market, market'
+p1748
+tp1749
+sI583
+(S'n03467068'
+p1750
+S'guillotine'
+p1751
+tp1752
+sI584
+(S'n03476684'
+p1753
+S'hair slide'
+p1754
+tp1755
+sI585
+(S'n03476991'
+p1756
+S'hair spray'
+p1757
+tp1758
+sI586
+(S'n03478589'
+p1759
+S'half track'
+p1760
+tp1761
+sI587
+(S'n03481172'
+p1762
+S'hammer'
+p1763
+tp1764
+sI588
+(S'n03482405'
+p1765
+S'hamper'
+p1766
+tp1767
+sI589
+(S'n03483316'
+p1768
+S'hand blower, blow dryer, blow drier, hair dryer, hair drier'
+p1769
+tp1770
+sI590
+(S'n03485407'
+p1771
+S'hand-held computer, hand-held microcomputer'
+p1772
+tp1773
+sI591
+(S'n03485794'
+p1774
+S'handkerchief, hankie, hanky, hankey'
+p1775
+tp1776
+sI592
+(S'n03492542'
+p1777
+S'hard disc, hard disk, fixed disk'
+p1778
+tp1779
+sI593
+(S'n03494278'
+p1780
+S'harmonica, mouth organ, harp, mouth harp'
+p1781
+tp1782
+sI594
+(S'n03495258'
+p1783
+S'harp'
+p1784
+tp1785
+sI595
+(S'n03496892'
+p1786
+S'harvester, reaper'
+p1787
+tp1788
+sI596
+(S'n03498962'
+p1789
+S'hatchet'
+p1790
+tp1791
+sI597
+(S'n03527444'
+p1792
+S'holster'
+p1793
+tp1794
+sI598
+(S'n03529860'
+p1795
+S'home theater, home theatre'
+p1796
+tp1797
+sI599
+(S'n03530642'
+p1798
+S'honeycomb'
+p1799
+tp1800
+sI600
+(S'n03532672'
+p1801
+S'hook, claw'
+p1802
+tp1803
+sI601
+(S'n03534580'
+p1804
+S'hoopskirt, crinoline'
+p1805
+tp1806
+sI602
+(S'n03535780'
+p1807
+S'horizontal bar, high bar'
+p1808
+tp1809
+sI603
+(S'n03538406'
+p1810
+S'horse cart, horse-cart'
+p1811
+tp1812
+sI604
+(S'n03544143'
+p1813
+S'hourglass'
+p1814
+tp1815
+sI605
+(S'n03584254'
+p1816
+S'iPod'
+p1817
+tp1818
+sI606
+(S'n03584829'
+p1819
+S'iron, smoothing iron'
+p1820
+tp1821
+sI607
+(S'n03590841'
+p1822
+S"jack-o'-lantern"
+p1823
+tp1824
+sI608
+(S'n03594734'
+p1825
+S'jean, blue jean, denim'
+p1826
+tp1827
+sI609
+(S'n03594945'
+p1828
+S'jeep, landrover'
+p1829
+tp1830
+sI610
+(S'n03595614'
+p1831
+S'jersey, T-shirt, tee shirt'
+p1832
+tp1833
+sI611
+(S'n03598930'
+p1834
+S'jigsaw puzzle'
+p1835
+tp1836
+sI612
+(S'n03599486'
+p1837
+S'jinrikisha, ricksha, rickshaw'
+p1838
+tp1839
+sI613
+(S'n03602883'
+p1840
+S'joystick'
+p1841
+tp1842
+sI614
+(S'n03617480'
+p1843
+S'kimono'
+p1844
+tp1845
+sI615
+(S'n03623198'
+p1846
+S'knee pad'
+p1847
+tp1848
+sI616
+(S'n03627232'
+p1849
+S'knot'
+p1850
+tp1851
+sI617
+(S'n03630383'
+p1852
+S'lab coat, laboratory coat'
+p1853
+tp1854
+sI618
+(S'n03633091'
+p1855
+S'ladle'
+p1856
+tp1857
+sI619
+(S'n03637318'
+p1858
+S'lampshade, lamp shade'
+p1859
+tp1860
+sI620
+(S'n03642806'
+p1861
+S'laptop, laptop computer'
+p1862
+tp1863
+sI621
+(S'n03649909'
+p1864
+S'lawn mower, mower'
+p1865
+tp1866
+sI622
+(S'n03657121'
+p1867
+S'lens cap, lens cover'
+p1868
+tp1869
+sI623
+(S'n03658185'
+p1870
+S'letter opener, paper knife, paperknife'
+p1871
+tp1872
+sI624
+(S'n03661043'
+p1873
+S'library'
+p1874
+tp1875
+sI625
+(S'n03662601'
+p1876
+S'lifeboat'
+p1877
+tp1878
+sI626
+(S'n03666591'
+p1879
+S'lighter, light, igniter, ignitor'
+p1880
+tp1881
+sI627
+(S'n03670208'
+p1882
+S'limousine, limo'
+p1883
+tp1884
+sI628
+(S'n03673027'
+p1885
+S'liner, ocean liner'
+p1886
+tp1887
+sI629
+(S'n03676483'
+p1888
+S'lipstick, lip rouge'
+p1889
+tp1890
+sI630
+(S'n03680355'
+p1891
+S'Loafer'
+p1892
+tp1893
+sI631
+(S'n03690938'
+p1894
+S'lotion'
+p1895
+tp1896
+sI632
+(S'n03691459'
+p1897
+S'loudspeaker, speaker, speaker unit, loudspeaker system, speaker system'
+p1898
+tp1899
+sI633
+(S'n03692522'
+p1900
+S"loupe, jeweler's loupe"
+p1901
+tp1902
+sI634
+(S'n03697007'
+p1903
+S'lumbermill, sawmill'
+p1904
+tp1905
+sI635
+(S'n03706229'
+p1906
+S'magnetic compass'
+p1907
+tp1908
+sI636
+(S'n03709823'
+p1909
+S'mailbag, postbag'
+p1910
+tp1911
+sI637
+(S'n03710193'
+p1912
+S'mailbox, letter box'
+p1913
+tp1914
+sI638
+(S'n03710637'
+p1915
+S'maillot'
+p1916
+tp1917
+sI639
+(S'n03710721'
+p1918
+S'maillot, tank suit'
+p1919
+tp1920
+sI640
+(S'n03717622'
+p1921
+S'manhole cover'
+p1922
+tp1923
+sI641
+(S'n03720891'
+p1924
+S'maraca'
+p1925
+tp1926
+sI642
+(S'n03721384'
+p1927
+S'marimba, xylophone'
+p1928
+tp1929
+sI643
+(S'n03724870'
+p1930
+S'mask'
+p1931
+tp1932
+sI644
+(S'n03729826'
+p1933
+S'matchstick'
+p1934
+tp1935
+sI645
+(S'n03733131'
+p1936
+S'maypole'
+p1937
+tp1938
+sI646
+(S'n03733281'
+p1939
+S'maze, labyrinth'
+p1940
+tp1941
+sI647
+(S'n03733805'
+p1942
+S'measuring cup'
+p1943
+tp1944
+sI648
+(S'n03742115'
+p1945
+S'medicine chest, medicine cabinet'
+p1946
+tp1947
+sI649
+(S'n03743016'
+p1948
+S'megalith, megalithic structure'
+p1949
+tp1950
+sI650
+(S'n03759954'
+p1951
+S'microphone, mike'
+p1952
+tp1953
+sI651
+(S'n03761084'
+p1954
+S'microwave, microwave oven'
+p1955
+tp1956
+sI652
+(S'n03763968'
+p1957
+S'military uniform'
+p1958
+tp1959
+sI653
+(S'n03764736'
+p1960
+S'milk can'
+p1961
+tp1962
+sI654
+(S'n03769881'
+p1963
+S'minibus'
+p1964
+tp1965
+sI655
+(S'n03770439'
+p1966
+S'miniskirt, mini'
+p1967
+tp1968
+sI656
+(S'n03770679'
+p1969
+S'minivan'
+p1970
+tp1971
+sI657
+(S'n03773504'
+p1972
+S'missile'
+p1973
+tp1974
+sI658
+(S'n03775071'
+p1975
+S'mitten'
+p1976
+tp1977
+sI659
+(S'n03775546'
+p1978
+S'mixing bowl'
+p1979
+tp1980
+sI660
+(S'n03776460'
+p1981
+S'mobile home, manufactured home'
+p1982
+tp1983
+sI661
+(S'n03777568'
+p1984
+S'Model T'
+p1985
+tp1986
+sI662
+(S'n03777754'
+p1987
+S'modem'
+p1988
+tp1989
+sI663
+(S'n03781244'
+p1990
+S'monastery'
+p1991
+tp1992
+sI664
+(S'n03782006'
+p1993
+S'monitor'
+p1994
+tp1995
+sI665
+(S'n03785016'
+p1996
+S'moped'
+p1997
+tp1998
+sI666
+(S'n03786901'
+p1999
+S'mortar'
+p2000
+tp2001
+sI667
+(S'n03787032'
+p2002
+S'mortarboard'
+p2003
+tp2004
+sI668
+(S'n03788195'
+p2005
+S'mosque'
+p2006
+tp2007
+sI669
+(S'n03788365'
+p2008
+S'mosquito net'
+p2009
+tp2010
+sI670
+(S'n03791053'
+p2011
+S'motor scooter, scooter'
+p2012
+tp2013
+sI671
+(S'n03792782'
+p2014
+S'mountain bike, all-terrain bike, off-roader'
+p2015
+tp2016
+sI672
+(S'n03792972'
+p2017
+S'mountain tent'
+p2018
+tp2019
+sI673
+(S'n03793489'
+p2020
+S'mouse, computer mouse'
+p2021
+tp2022
+sI674
+(S'n03794056'
+p2023
+S'mousetrap'
+p2024
+tp2025
+sI675
+(S'n03796401'
+p2026
+S'moving van'
+p2027
+tp2028
+sI676
+(S'n03803284'
+p2029
+S'muzzle'
+p2030
+tp2031
+sI677
+(S'n03804744'
+p2032
+S'nail'
+p2033
+tp2034
+sI678
+(S'n03814639'
+p2035
+S'neck brace'
+p2036
+tp2037
+sI679
+(S'n03814906'
+p2038
+S'necklace'
+p2039
+tp2040
+sI680
+(S'n03825788'
+p2041
+S'nipple'
+p2042
+tp2043
+sI681
+(S'n03832673'
+p2044
+S'notebook, notebook computer'
+p2045
+tp2046
+sI682
+(S'n03837869'
+p2047
+S'obelisk'
+p2048
+tp2049
+sI683
+(S'n03838899'
+p2050
+S'oboe, hautboy, hautbois'
+p2051
+tp2052
+sI684
+(S'n03840681'
+p2053
+S'ocarina, sweet potato'
+p2054
+tp2055
+sI685
+(S'n03841143'
+p2056
+S'odometer, hodometer, mileometer, milometer'
+p2057
+tp2058
+sI686
+(S'n03843555'
+p2059
+S'oil filter'
+p2060
+tp2061
+sI687
+(S'n03854065'
+p2062
+S'organ, pipe organ'
+p2063
+tp2064
+sI688
+(S'n03857828'
+p2065
+S'oscilloscope, scope, cathode-ray oscilloscope, CRO'
+p2066
+tp2067
+sI689
+(S'n03866082'
+p2068
+S'overskirt'
+p2069
+tp2070
+sI690
+(S'n03868242'
+p2071
+S'oxcart'
+p2072
+tp2073
+sI691
+(S'n03868863'
+p2074
+S'oxygen mask'
+p2075
+tp2076
+sI692
+(S'n03871628'
+p2077
+S'packet'
+p2078
+tp2079
+sI693
+(S'n03873416'
+p2080
+S'paddle, boat paddle'
+p2081
+tp2082
+sI694
+(S'n03874293'
+p2083
+S'paddlewheel, paddle wheel'
+p2084
+tp2085
+sI695
+(S'n03874599'
+p2086
+S'padlock'
+p2087
+tp2088
+sI696
+(S'n03876231'
+p2089
+S'paintbrush'
+p2090
+tp2091
+sI697
+(S'n03877472'
+p2092
+S"pajama, pyjama, pj's, jammies"
+p2093
+tp2094
+sI698
+(S'n03877845'
+p2095
+S'palace'
+p2096
+tp2097
+sI699
+(S'n03884397'
+p2098
+S'panpipe, pandean pipe, syrinx'
+p2099
+tp2100
+sI700
+(S'n03887697'
+p2101
+S'paper towel'
+p2102
+tp2103
+sI701
+(S'n03888257'
+p2104
+S'parachute, chute'
+p2105
+tp2106
+sI702
+(S'n03888605'
+p2107
+S'parallel bars, bars'
+p2108
+tp2109
+sI703
+(S'n03891251'
+p2110
+S'park bench'
+p2111
+tp2112
+sI704
+(S'n03891332'
+p2113
+S'parking meter'
+p2114
+tp2115
+sI705
+(S'n03895866'
+p2116
+S'passenger car, coach, carriage'
+p2117
+tp2118
+sI706
+(S'n03899768'
+p2119
+S'patio, terrace'
+p2120
+tp2121
+sI707
+(S'n03902125'
+p2122
+S'pay-phone, pay-station'
+p2123
+tp2124
+sI708
+(S'n03903868'
+p2125
+S'pedestal, plinth, footstall'
+p2126
+tp2127
+sI709
+(S'n03908618'
+p2128
+S'pencil box, pencil case'
+p2129
+tp2130
+sI710
+(S'n03908714'
+p2131
+S'pencil sharpener'
+p2132
+tp2133
+sI711
+(S'n03916031'
+p2134
+S'perfume, essence'
+p2135
+tp2136
+sI712
+(S'n03920288'
+p2137
+S'Petri dish'
+p2138
+tp2139
+sI713
+(S'n03924679'
+p2140
+S'photocopier'
+p2141
+tp2142
+sI714
+(S'n03929660'
+p2143
+S'pick, plectrum, plectron'
+p2144
+tp2145
+sI715
+(S'n03929855'
+p2146
+S'pickelhaube'
+p2147
+tp2148
+sI716
+(S'n03930313'
+p2149
+S'picket fence, paling'
+p2150
+tp2151
+sI717
+(S'n03930630'
+p2152
+S'pickup, pickup truck'
+p2153
+tp2154
+sI718
+(S'n03933933'
+p2155
+S'pier'
+p2156
+tp2157
+sI719
+(S'n03935335'
+p2158
+S'piggy bank, penny bank'
+p2159
+tp2160
+sI720
+(S'n03937543'
+p2161
+S'pill bottle'
+p2162
+tp2163
+sI721
+(S'n03938244'
+p2164
+S'pillow'
+p2165
+tp2166
+sI722
+(S'n03942813'
+p2167
+S'ping-pong ball'
+p2168
+tp2169
+sI723
+(S'n03944341'
+p2170
+S'pinwheel'
+p2171
+tp2172
+sI724
+(S'n03947888'
+p2173
+S'pirate, pirate ship'
+p2174
+tp2175
+sI725
+(S'n03950228'
+p2176
+S'pitcher, ewer'
+p2177
+tp2178
+sI726
+(S'n03954731'
+p2179
+S"plane, carpenter's plane, woodworking plane"
+p2180
+tp2181
+sI727
+(S'n03956157'
+p2182
+S'planetarium'
+p2183
+tp2184
+sI728
+(S'n03958227'
+p2185
+S'plastic bag'
+p2186
+tp2187
+sI729
+(S'n03961711'
+p2188
+S'plate rack'
+p2189
+tp2190
+sI730
+(S'n03967562'
+p2191
+S'plow, plough'
+p2192
+tp2193
+sI731
+(S'n03970156'
+p2194
+S"plunger, plumber's helper"
+p2195
+tp2196
+sI732
+(S'n03976467'
+p2197
+S'Polaroid camera, Polaroid Land camera'
+p2198
+tp2199
+sI733
+(S'n03976657'
+p2200
+S'pole'
+p2201
+tp2202
+sI734
+(S'n03977966'
+p2203
+S'police van, police wagon, paddy wagon, patrol wagon, wagon, black Maria'
+p2204
+tp2205
+sI735
+(S'n03980874'
+p2206
+S'poncho'
+p2207
+tp2208
+sI736
+(S'n03982430'
+p2209
+S'pool table, billiard table, snooker table'
+p2210
+tp2211
+sI737
+(S'n03983396'
+p2212
+S'pop bottle, soda bottle'
+p2213
+tp2214
+sI738
+(S'n03991062'
+p2215
+S'pot, flowerpot'
+p2216
+tp2217
+sI739
+(S'n03992509'
+p2218
+S"potter's wheel"
+p2219
+tp2220
+sI740
+(S'n03995372'
+p2221
+S'power drill'
+p2222
+tp2223
+sI741
+(S'n03998194'
+p2224
+S'prayer rug, prayer mat'
+p2225
+tp2226
+sI742
+(S'n04004767'
+p2227
+S'printer'
+p2228
+tp2229
+sI743
+(S'n04005630'
+p2230
+S'prison, prison house'
+p2231
+tp2232
+sI744
+(S'n04008634'
+p2233
+S'projectile, missile'
+p2234
+tp2235
+sI745
+(S'n04009552'
+p2236
+S'projector'
+p2237
+tp2238
+sI746
+(S'n04019541'
+p2239
+S'puck, hockey puck'
+p2240
+tp2241
+sI747
+(S'n04023962'
+p2242
+S'punching bag, punch bag, punching ball, punchball'
+p2243
+tp2244
+sI748
+(S'n04026417'
+p2245
+S'purse'
+p2246
+tp2247
+sI749
+(S'n04033901'
+p2248
+S'quill, quill pen'
+p2249
+tp2250
+sI750
+(S'n04033995'
+p2251
+S'quilt, comforter, comfort, puff'
+p2252
+tp2253
+sI751
+(S'n04037443'
+p2254
+S'racer, race car, racing car'
+p2255
+tp2256
+sI752
+(S'n04039381'
+p2257
+S'racket, racquet'
+p2258
+tp2259
+sI753
+(S'n04040759'
+p2260
+S'radiator'
+p2261
+tp2262
+sI754
+(S'n04041544'
+p2263
+S'radio, wireless'
+p2264
+tp2265
+sI755
+(S'n04044716'
+p2266
+S'radio telescope, radio reflector'
+p2267
+tp2268
+sI756
+(S'n04049303'
+p2269
+S'rain barrel'
+p2270
+tp2271
+sI757
+(S'n04065272'
+p2272
+S'recreational vehicle, RV, R.V.'
+p2273
+tp2274
+sI758
+(S'n04067472'
+p2275
+S'reel'
+p2276
+tp2277
+sI759
+(S'n04069434'
+p2278
+S'reflex camera'
+p2279
+tp2280
+sI760
+(S'n04070727'
+p2281
+S'refrigerator, icebox'
+p2282
+tp2283
+sI761
+(S'n04074963'
+p2284
+S'remote control, remote'
+p2285
+tp2286
+sI762
+(S'n04081281'
+p2287
+S'restaurant, eating house, eating place, eatery'
+p2288
+tp2289
+sI763
+(S'n04086273'
+p2290
+S'revolver, six-gun, six-shooter'
+p2291
+tp2292
+sI764
+(S'n04090263'
+p2293
+S'rifle'
+p2294
+tp2295
+sI765
+(S'n04099969'
+p2296
+S'rocking chair, rocker'
+p2297
+tp2298
+sI766
+(S'n04111531'
+p2299
+S'rotisserie'
+p2300
+tp2301
+sI767
+(S'n04116512'
+p2302
+S'rubber eraser, rubber, pencil eraser'
+p2303
+tp2304
+sI768
+(S'n04118538'
+p2305
+S'rugby ball'
+p2306
+tp2307
+sI769
+(S'n04118776'
+p2308
+S'rule, ruler'
+p2309
+tp2310
+sI770
+(S'n04120489'
+p2311
+S'running shoe'
+p2312
+tp2313
+sI771
+(S'n04125021'
+p2314
+S'safe'
+p2315
+tp2316
+sI772
+(S'n04127249'
+p2317
+S'safety pin'
+p2318
+tp2319
+sI773
+(S'n04131690'
+p2320
+S'saltshaker, salt shaker'
+p2321
+tp2322
+sI774
+(S'n04133789'
+p2323
+S'sandal'
+p2324
+tp2325
+sI775
+(S'n04136333'
+p2326
+S'sarong'
+p2327
+tp2328
+sI776
+(S'n04141076'
+p2329
+S'sax, saxophone'
+p2330
+tp2331
+sI777
+(S'n04141327'
+p2332
+S'scabbard'
+p2333
+tp2334
+sI778
+(S'n04141975'
+p2335
+S'scale, weighing machine'
+p2336
+tp2337
+sI779
+(S'n04146614'
+p2338
+S'school bus'
+p2339
+tp2340
+sI780
+(S'n04147183'
+p2341
+S'schooner'
+p2342
+tp2343
+sI781
+(S'n04149813'
+p2344
+S'scoreboard'
+p2345
+tp2346
+sI782
+(S'n04152593'
+p2347
+S'screen, CRT screen'
+p2348
+tp2349
+sI783
+(S'n04153751'
+p2350
+S'screw'
+p2351
+tp2352
+sI784
+(S'n04154565'
+p2353
+S'screwdriver'
+p2354
+tp2355
+sI785
+(S'n04162706'
+p2356
+S'seat belt, seatbelt'
+p2357
+tp2358
+sI786
+(S'n04179913'
+p2359
+S'sewing machine'
+p2360
+tp2361
+sI787
+(S'n04192698'
+p2362
+S'shield, buckler'
+p2363
+tp2364
+sI788
+(S'n04200800'
+p2365
+S'shoe shop, shoe-shop, shoe store'
+p2366
+tp2367
+sI789
+(S'n04201297'
+p2368
+S'shoji'
+p2369
+tp2370
+sI790
+(S'n04204238'
+p2371
+S'shopping basket'
+p2372
+tp2373
+sI791
+(S'n04204347'
+p2374
+S'shopping cart'
+p2375
+tp2376
+sI792
+(S'n04208210'
+p2377
+S'shovel'
+p2378
+tp2379
+sI793
+(S'n04209133'
+p2380
+S'shower cap'
+p2381
+tp2382
+sI794
+(S'n04209239'
+p2383
+S'shower curtain'
+p2384
+tp2385
+sI795
+(S'n04228054'
+p2386
+S'ski'
+p2387
+tp2388
+sI796
+(S'n04229816'
+p2389
+S'ski mask'
+p2390
+tp2391
+sI797
+(S'n04235860'
+p2392
+S'sleeping bag'
+p2393
+tp2394
+sI798
+(S'n04238763'
+p2395
+S'slide rule, slipstick'
+p2396
+tp2397
+sI799
+(S'n04239074'
+p2398
+S'sliding door'
+p2399
+tp2400
+sI800
+(S'n04243546'
+p2401
+S'slot, one-armed bandit'
+p2402
+tp2403
+sI801
+(S'n04251144'
+p2404
+S'snorkel'
+p2405
+tp2406
+sI802
+(S'n04252077'
+p2407
+S'snowmobile'
+p2408
+tp2409
+sI803
+(S'n04252225'
+p2410
+S'snowplow, snowplough'
+p2411
+tp2412
+sI804
+(S'n04254120'
+p2413
+S'soap dispenser'
+p2414
+tp2415
+sI805
+(S'n04254680'
+p2416
+S'soccer ball'
+p2417
+tp2418
+sI806
+(S'n04254777'
+p2419
+S'sock'
+p2420
+tp2421
+sI807
+(S'n04258138'
+p2422
+S'solar dish, solar collector, solar furnace'
+p2423
+tp2424
+sI808
+(S'n04259630'
+p2425
+S'sombrero'
+p2426
+tp2427
+sI809
+(S'n04263257'
+p2428
+S'soup bowl'
+p2429
+tp2430
+sI810
+(S'n04264628'
+p2431
+S'space bar'
+p2432
+tp2433
+sI811
+(S'n04265275'
+p2434
+S'space heater'
+p2435
+tp2436
+sI812
+(S'n04266014'
+p2437
+S'space shuttle'
+p2438
+tp2439
+sI813
+(S'n04270147'
+p2440
+S'spatula'
+p2441
+tp2442
+sI814
+(S'n04273569'
+p2443
+S'speedboat'
+p2444
+tp2445
+sI815
+(S'n04275548'
+p2446
+S"spider web, spider's web"
+p2447
+tp2448
+sI816
+(S'n04277352'
+p2449
+S'spindle'
+p2450
+tp2451
+sI817
+(S'n04285008'
+p2452
+S'sports car, sport car'
+p2453
+tp2454
+sI818
+(S'n04286575'
+p2455
+S'spotlight, spot'
+p2456
+tp2457
+sI819
+(S'n04296562'
+p2458
+S'stage'
+p2459
+tp2460
+sI820
+(S'n04310018'
+p2461
+S'steam locomotive'
+p2462
+tp2463
+sI821
+(S'n04311004'
+p2464
+S'steel arch bridge'
+p2465
+tp2466
+sI822
+(S'n04311174'
+p2467
+S'steel drum'
+p2468
+tp2469
+sI823
+(S'n04317175'
+p2470
+S'stethoscope'
+p2471
+tp2472
+sI824
+(S'n04325704'
+p2473
+S'stole'
+p2474
+tp2475
+sI825
+(S'n04326547'
+p2476
+S'stone wall'
+p2477
+tp2478
+sI826
+(S'n04328186'
+p2479
+S'stopwatch, stop watch'
+p2480
+tp2481
+sI827
+(S'n04330267'
+p2482
+S'stove'
+p2483
+tp2484
+sI828
+(S'n04332243'
+p2485
+S'strainer'
+p2486
+tp2487
+sI829
+(S'n04335435'
+p2488
+S'streetcar, tram, tramcar, trolley, trolley car'
+p2489
+tp2490
+sI830
+(S'n04336792'
+p2491
+S'stretcher'
+p2492
+tp2493
+sI831
+(S'n04344873'
+p2494
+S'studio couch, day bed'
+p2495
+tp2496
+sI832
+(S'n04346328'
+p2497
+S'stupa, tope'
+p2498
+tp2499
+sI833
+(S'n04347754'
+p2500
+S'submarine, pigboat, sub, U-boat'
+p2501
+tp2502
+sI834
+(S'n04350905'
+p2503
+S'suit, suit of clothes'
+p2504
+tp2505
+sI835
+(S'n04355338'
+p2506
+S'sundial'
+p2507
+tp2508
+sI836
+(S'n04355933'
+p2509
+S'sunglass'
+p2510
+tp2511
+sI837
+(S'n04356056'
+p2512
+S'sunglasses, dark glasses, shades'
+p2513
+tp2514
+sI838
+(S'n04357314'
+p2515
+S'sunscreen, sunblock, sun blocker'
+p2516
+tp2517
+sI839
+(S'n04366367'
+p2518
+S'suspension bridge'
+p2519
+tp2520
+sI840
+(S'n04367480'
+p2521
+S'swab, swob, mop'
+p2522
+tp2523
+sI841
+(S'n04370456'
+p2524
+S'sweatshirt'
+p2525
+tp2526
+sI842
+(S'n04371430'
+p2527
+S'swimming trunks, bathing trunks'
+p2528
+tp2529
+sI843
+(S'n04371774'
+p2530
+S'swing'
+p2531
+tp2532
+sI844
+(S'n04372370'
+p2533
+S'switch, electric switch, electrical switch'
+p2534
+tp2535
+sI845
+(S'n04376876'
+p2536
+S'syringe'
+p2537
+tp2538
+sI846
+(S'n04380533'
+p2539
+S'table lamp'
+p2540
+tp2541
+sI847
+(S'n04389033'
+p2542
+S'tank, army tank, armored combat vehicle, armoured combat vehicle'
+p2543
+tp2544
+sI848
+(S'n04392985'
+p2545
+S'tape player'
+p2546
+tp2547
+sI849
+(S'n04398044'
+p2548
+S'teapot'
+p2549
+tp2550
+sI850
+(S'n04399382'
+p2551
+S'teddy, teddy bear'
+p2552
+tp2553
+sI851
+(S'n04404412'
+p2554
+S'television, television system'
+p2555
+tp2556
+sI852
+(S'n04409515'
+p2557
+S'tennis ball'
+p2558
+tp2559
+sI853
+(S'n04417672'
+p2560
+S'thatch, thatched roof'
+p2561
+tp2562
+sI854
+(S'n04418357'
+p2563
+S'theater curtain, theatre curtain'
+p2564
+tp2565
+sI855
+(S'n04423845'
+p2566
+S'thimble'
+p2567
+tp2568
+sI856
+(S'n04428191'
+p2569
+S'thresher, thrasher, threshing machine'
+p2570
+tp2571
+sI857
+(S'n04429376'
+p2572
+S'throne'
+p2573
+tp2574
+sI858
+(S'n04435653'
+p2575
+S'tile roof'
+p2576
+tp2577
+sI859
+(S'n04442312'
+p2578
+S'toaster'
+p2579
+tp2580
+sI860
+(S'n04443257'
+p2581
+S'tobacco shop, tobacconist shop, tobacconist'
+p2582
+tp2583
+sI861
+(S'n04447861'
+p2584
+S'toilet seat'
+p2585
+tp2586
+sI862
+(S'n04456115'
+p2587
+S'torch'
+p2588
+tp2589
+sI863
+(S'n04458633'
+p2590
+S'totem pole'
+p2591
+tp2592
+sI864
+(S'n04461696'
+p2593
+S'tow truck, tow car, wrecker'
+p2594
+tp2595
+sI865
+(S'n04462240'
+p2596
+S'toyshop'
+p2597
+tp2598
+sI866
+(S'n04465501'
+p2599
+S'tractor'
+p2600
+tp2601
+sI867
+(S'n04467665'
+p2602
+S'trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi'
+p2603
+tp2604
+sI868
+(S'n04476259'
+p2605
+S'tray'
+p2606
+tp2607
+sI869
+(S'n04479046'
+p2608
+S'trench coat'
+p2609
+tp2610
+sI870
+(S'n04482393'
+p2611
+S'tricycle, trike, velocipede'
+p2612
+tp2613
+sI871
+(S'n04483307'
+p2614
+S'trimaran'
+p2615
+tp2616
+sI872
+(S'n04485082'
+p2617
+S'tripod'
+p2618
+tp2619
+sI873
+(S'n04486054'
+p2620
+S'triumphal arch'
+p2621
+tp2622
+sI874
+(S'n04487081'
+p2623
+S'trolleybus, trolley coach, trackless trolley'
+p2624
+tp2625
+sI875
+(S'n04487394'
+p2626
+S'trombone'
+p2627
+tp2628
+sI876
+(S'n04493381'
+p2629
+S'tub, vat'
+p2630
+tp2631
+sI877
+(S'n04501370'
+p2632
+S'turnstile'
+p2633
+tp2634
+sI878
+(S'n04505470'
+p2635
+S'typewriter keyboard'
+p2636
+tp2637
+sI879
+(S'n04507155'
+p2638
+S'umbrella'
+p2639
+tp2640
+sI880
+(S'n04509417'
+p2641
+S'unicycle, monocycle'
+p2642
+tp2643
+sI881
+(S'n04515003'
+p2644
+S'upright, upright piano'
+p2645
+tp2646
+sI882
+(S'n04517823'
+p2647
+S'vacuum, vacuum cleaner'
+p2648
+tp2649
+sI883
+(S'n04522168'
+p2650
+S'vase'
+p2651
+tp2652
+sI884
+(S'n04523525'
+p2653
+S'vault'
+p2654
+tp2655
+sI885
+(S'n04525038'
+p2656
+S'velvet'
+p2657
+tp2658
+sI886
+(S'n04525305'
+p2659
+S'vending machine'
+p2660
+tp2661
+sI887
+(S'n04532106'
+p2662
+S'vestment'
+p2663
+tp2664
+sI888
+(S'n04532670'
+p2665
+S'viaduct'
+p2666
+tp2667
+sI889
+(S'n04536866'
+p2668
+S'violin, fiddle'
+p2669
+tp2670
+sI890
+(S'n04540053'
+p2671
+S'volleyball'
+p2672
+tp2673
+sI891
+(S'n04542943'
+p2674
+S'waffle iron'
+p2675
+tp2676
+sI892
+(S'n04548280'
+p2677
+S'wall clock'
+p2678
+tp2679
+sI893
+(S'n04548362'
+p2680
+S'wallet, billfold, notecase, pocketbook'
+p2681
+tp2682
+sI894
+(S'n04550184'
+p2683
+S'wardrobe, closet, press'
+p2684
+tp2685
+sI895
+(S'n04552348'
+p2686
+S'warplane, military plane'
+p2687
+tp2688
+sI896
+(S'n04553703'
+p2689
+S'washbasin, handbasin, washbowl, lavabo, wash-hand basin'
+p2690
+tp2691
+sI897
+(S'n04554684'
+p2692
+S'washer, automatic washer, washing machine'
+p2693
+tp2694
+sI898
+(S'n04557648'
+p2695
+S'water bottle'
+p2696
+tp2697
+sI899
+(S'n04560804'
+p2698
+S'water jug'
+p2699
+tp2700
+sI900
+(S'n04562935'
+p2701
+S'water tower'
+p2702
+tp2703
+sI901
+(S'n04579145'
+p2704
+S'whiskey jug'
+p2705
+tp2706
+sI902
+(S'n04579432'
+p2707
+S'whistle'
+p2708
+tp2709
+sI903
+(S'n04584207'
+p2710
+S'wig'
+p2711
+tp2712
+sI904
+(S'n04589890'
+p2713
+S'window screen'
+p2714
+tp2715
+sI905
+(S'n04590129'
+p2716
+S'window shade'
+p2717
+tp2718
+sI906
+(S'n04591157'
+p2719
+S'Windsor tie'
+p2720
+tp2721
+sI907
+(S'n04591713'
+p2722
+S'wine bottle'
+p2723
+tp2724
+sI908
+(S'n04592741'
+p2725
+S'wing'
+p2726
+tp2727
+sI909
+(S'n04596742'
+p2728
+S'wok'
+p2729
+tp2730
+sI910
+(S'n04597913'
+p2731
+S'wooden spoon'
+p2732
+tp2733
+sI911
+(S'n04599235'
+p2734
+S'wool, woolen, woollen'
+p2735
+tp2736
+sI912
+(S'n04604644'
+p2737
+S'worm fence, snake fence, snake-rail fence, Virginia fence'
+p2738
+tp2739
+sI913
+(S'n04606251'
+p2740
+S'wreck'
+p2741
+tp2742
+sI914
+(S'n04612504'
+p2743
+S'yawl'
+p2744
+tp2745
+sI915
+(S'n04613696'
+p2746
+S'yurt'
+p2747
+tp2748
+sI916
+(S'n06359193'
+p2749
+S'web site, website, internet site, site'
+p2750
+tp2751
+sI917
+(S'n06596364'
+p2752
+S'comic book'
+p2753
+tp2754
+sI918
+(S'n06785654'
+p2755
+S'crossword puzzle, crossword'
+p2756
+tp2757
+sI919
+(S'n06794110'
+p2758
+S'street sign'
+p2759
+tp2760
+sI920
+(S'n06874185'
+p2761
+S'traffic light, traffic signal, stoplight'
+p2762
+tp2763
+sI921
+(S'n07248320'
+p2764
+S'book jacket, dust cover, dust jacket, dust wrapper'
+p2765
+tp2766
+sI922
+(S'n07565083'
+p2767
+S'menu'
+p2768
+tp2769
+sI923
+(S'n07579787'
+p2770
+S'plate'
+p2771
+tp2772
+sI924
+(S'n07583066'
+p2773
+S'guacamole'
+p2774
+tp2775
+sI925
+(S'n07584110'
+p2776
+S'consomme'
+p2777
+tp2778
+sI926
+(S'n07590611'
+p2779
+S'hot pot, hotpot'
+p2780
+tp2781
+sI927
+(S'n07613480'
+p2782
+S'trifle'
+p2783
+tp2784
+sI928
+(S'n07614500'
+p2785
+S'ice cream, icecream'
+p2786
+tp2787
+sI929
+(S'n07615774'
+p2788
+S'ice lolly, lolly, lollipop, popsicle'
+p2789
+tp2790
+sI930
+(S'n07684084'
+p2791
+S'French loaf'
+p2792
+tp2793
+sI931
+(S'n07693725'
+p2794
+S'bagel, beigel'
+p2795
+tp2796
+sI932
+(S'n07695742'
+p2797
+S'pretzel'
+p2798
+tp2799
+sI933
+(S'n07697313'
+p2800
+S'cheeseburger'
+p2801
+tp2802
+sI934
+(S'n07697537'
+p2803
+S'hotdog, hot dog, red hot'
+p2804
+tp2805
+sI935
+(S'n07711569'
+p2806
+S'mashed potato'
+p2807
+tp2808
+sI936
+(S'n07714571'
+p2809
+S'head cabbage'
+p2810
+tp2811
+sI937
+(S'n07714990'
+p2812
+S'broccoli'
+p2813
+tp2814
+sI938
+(S'n07715103'
+p2815
+S'cauliflower'
+p2816
+tp2817
+sI939
+(S'n07716358'
+p2818
+S'zucchini, courgette'
+p2819
+tp2820
+sI940
+(S'n07716906'
+p2821
+S'spaghetti squash'
+p2822
+tp2823
+sI941
+(S'n07717410'
+p2824
+S'acorn squash'
+p2825
+tp2826
+sI942
+(S'n07717556'
+p2827
+S'butternut squash'
+p2828
+tp2829
+sI943
+(S'n07718472'
+p2830
+S'cucumber, cuke'
+p2831
+tp2832
+sI944
+(S'n07718747'
+p2833
+S'artichoke, globe artichoke'
+p2834
+tp2835
+sI945
+(S'n07720875'
+p2836
+S'bell pepper'
+p2837
+tp2838
+sI946
+(S'n07730033'
+p2839
+S'cardoon'
+p2840
+tp2841
+sI947
+(S'n07734744'
+p2842
+S'mushroom'
+p2843
+tp2844
+sI948
+(S'n07742313'
+p2845
+S'Granny Smith'
+p2846
+tp2847
+sI949
+(S'n07745940'
+p2848
+S'strawberry'
+p2849
+tp2850
+sI950
+(S'n07747607'
+p2851
+S'orange'
+p2852
+tp2853
+sI951
+(S'n07749582'
+p2854
+S'lemon'
+p2855
+tp2856
+sI952
+(S'n07753113'
+p2857
+S'fig'
+p2858
+tp2859
+sI953
+(S'n07753275'
+p2860
+S'pineapple, ananas'
+p2861
+tp2862
+sI954
+(S'n07753592'
+p2863
+S'banana'
+p2864
+tp2865
+sI955
+(S'n07754684'
+p2866
+S'jackfruit, jak, jack'
+p2867
+tp2868
+sI956
+(S'n07760859'
+p2869
+S'custard apple'
+p2870
+tp2871
+sI957
+(S'n07768694'
+p2872
+S'pomegranate'
+p2873
+tp2874
+sI958
+(S'n07802026'
+p2875
+S'hay'
+p2876
+tp2877
+sI959
+(S'n07831146'
+p2878
+S'carbonara'
+p2879
+tp2880
+sI960
+(S'n07836838'
+p2881
+S'chocolate sauce, chocolate syrup'
+p2882
+tp2883
+sI961
+(S'n07860988'
+p2884
+S'dough'
+p2885
+tp2886
+sI962
+(S'n07871810'
+p2887
+S'meat loaf, meatloaf'
+p2888
+tp2889
+sI963
+(S'n07873807'
+p2890
+S'pizza, pizza pie'
+p2891
+tp2892
+sI964
+(S'n07875152'
+p2893
+S'potpie'
+p2894
+tp2895
+sI965
+(S'n07880968'
+p2896
+S'burrito'
+p2897
+tp2898
+sI966
+(S'n07892512'
+p2899
+S'red wine'
+p2900
+tp2901
+sI967
+(S'n07920052'
+p2902
+S'espresso'
+p2903
+tp2904
+sI968
+(S'n07930864'
+p2905
+S'cup'
+p2906
+tp2907
+sI969
+(S'n07932039'
+p2908
+S'eggnog'
+p2909
+tp2910
+sI970
+(S'n09193705'
+p2911
+S'alp'
+p2912
+tp2913
+sI971
+(S'n09229709'
+p2914
+S'bubble'
+p2915
+tp2916
+sI972
+(S'n09246464'
+p2917
+S'cliff, drop, drop-off'
+p2918
+tp2919
+sI973
+(S'n09256479'
+p2920
+S'coral reef'
+p2921
+tp2922
+sI974
+(S'n09288635'
+p2923
+S'geyser'
+p2924
+tp2925
+sI975
+(S'n09332890'
+p2926
+S'lakeside, lakeshore'
+p2927
+tp2928
+sI976
+(S'n09399592'
+p2929
+S'promontory, headland, head, foreland'
+p2930
+tp2931
+sI977
+(S'n09421951'
+p2932
+S'sandbar, sand bar'
+p2933
+tp2934
+sI978
+(S'n09428293'
+p2935
+S'seashore, coast, seacoast, sea-coast'
+p2936
+tp2937
+sI979
+(S'n09468604'
+p2938
+S'valley, vale'
+p2939
+tp2940
+sI980
+(S'n09472597'
+p2941
+S'volcano'
+p2942
+tp2943
+sI981
+(S'n09835506'
+p2944
+S'ballplayer, baseball player'
+p2945
+tp2946
+sI982
+(S'n10148035'
+p2947
+S'groom, bridegroom'
+p2948
+tp2949
+sI983
+(S'n10565667'
+p2950
+S'scuba diver'
+p2951
+tp2952
+sI984
+(S'n11879895'
+p2953
+S'rapeseed'
+p2954
+tp2955
+sI985
+(S'n11939491'
+p2956
+S'daisy'
+p2957
+tp2958
+sI986
+(S'n12057211'
+p2959
+S"yellow lady's slipper, yellow lady-slipper, Cypripedium calceolus, Cypripedium parviflorum"
+p2960
+tp2961
+sI987
+(S'n12144580'
+p2962
+S'corn'
+p2963
+tp2964
+sI988
+(S'n12267677'
+p2965
+S'acorn'
+p2966
+tp2967
+sI989
+(S'n12620546'
+p2968
+S'hip, rose hip, rosehip'
+p2969
+tp2970
+sI990
+(S'n12768682'
+p2971
+S'buckeye, horse chestnut, conker'
+p2972
+tp2973
+sI991
+(S'n12985857'
+p2974
+S'coral fungus'
+p2975
+tp2976
+sI992
+(S'n12998815'
+p2977
+S'agaric'
+p2978
+tp2979
+sI993
+(S'n13037406'
+p2980
+S'gyromitra'
+p2981
+tp2982
+sI994
+(S'n13040303'
+p2983
+S'stinkhorn, carrion fungus'
+p2984
+tp2985
+sI995
+(S'n13044778'
+p2986
+S'earthstar'
+p2987
+tp2988
+sI996
+(S'n13052670'
+p2989
+S'hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa'
+p2990
+tp2991
+sI997
+(S'n13054560'
+p2992
+S'bolete'
+p2993
+tp2994
+sI998
+(S'n13133613'
+p2995
+S'ear, spike, capitulum'
+p2996
+tp2997
+sI999
+(S'n15075141'
+p2998
+S'toilet tissue, toilet paper, bathroom tissue'
+p2999
+tp3000
+s.

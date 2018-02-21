@@ -1,0 +1,3 @@
+recursive-include qnn/bitstreams *
+recursive-include qnn/libraries *
+recursive-include qnn/params *
