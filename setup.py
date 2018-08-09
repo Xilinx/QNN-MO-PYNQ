@@ -37,10 +37,10 @@ from glob import glob
 
 import site
 
-if 'BOARD' not in os.environ or os.environ['BOARD'] != 'Pynq-Z1':
-    print("Only supported on a Pynq-Z1 Board")
+if 'BOARD' not in os.environ or not (os.environ['BOARD'] == 'Pynq-Z1' or os.environ['BOARD'] == 'Pynq-Z2'):
+    print("Only supported on a Pynq Z1 or Z2 boards")
     exit(1)
-
+    
 package_data = []
 data_files = []
 package_include_data = [ 'bitstreams/', 'params/', 'libraries/' ]
