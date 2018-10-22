@@ -34,32 +34,36 @@ import shutil
 import os
 from glob import glob
 
+if os.environ['BOARD'] != 'Ultra96' and os.environ['BOARD'] != 'Pynq-Z1' and os.environ['BOARD'] != 'Pynq-Z2':
+	print("Only supported on a Ultra96, Pynq-Z1 or Pynq-Z2 Board")
+	exit(1)
 
-import site
-
-if 'BOARD' not in os.environ or not (os.environ['BOARD'] == 'Pynq-Z1' or os.environ['BOARD'] == 'Pynq-Z2'):
-    print("Only supported on a Pynq Z1 or Z2 boards")
-    exit(1)
-    
+if os.environ['BOARD'] == 'Ultra96':
+	PLATFORM="ultra96"
+elif os.environ['BOARD'] == 'Pynq-Z1' or os.environ['BOARD'] == 'Pynq-Z2':
+	PLATFORM="pynqZ1-Z2"
+else:
+	raise RuntimeError("Board not supported")  
+	
 package_data = []
 data_files = []
 package_include_data = [ 'bitstreams/', 'params/', 'libraries/' ]
 
-if len(sys.argv) > 1 and sys.argv[1] == 'install':
-    my_path = os.path.dirname(os.path.abspath(__file__)) + "/"
-    print("Running pre installation scripts...")
+if 'bdist_wheel' in sys.argv or 'install' in sys.argv:
+    print("Running pre installation script...")
+    my_path = os.path.dirname(os.path.abspath(__file__)) + "/"  
     print("Building hardware library...")
     subprocess.check_output(["make", "-j2", "-C", my_path + "qnn/src/network/", "lib_hw"])
-    shutil.copy2(my_path + "qnn/src/network/output/lib_hw.so", my_path + "qnn/libraries/")
+    shutil.copy2(my_path + "qnn/src/network/output/lib_hw.so", my_path + "qnn/libraries/"+PLATFORM)
 
-    if os.environ.get('VIVADOHLS_INCLUDE_PATH') is not None:
-        print("Building software libraries...")
-        os.remove(my_path + "qnn/libraries/lib_sw_W1A2.so")
-        os.remove(my_path + "qnn/libraries/lib_sw_W1A3.so")
-        subprocess.check_output(["make", "-j2", "-C", my_path + "qnn/src/network/", "lib_sw_W1A2"])
-        subprocess.check_output(["make", "-j2", "-C", my_path + "qnn/src/network/", "lib_sw_W1A3"])
-        shutil.copy2(my_path + "qnn/src/network/output/lib_sw_W1A2.so", my_path + "qnn/libraries/")
-        shutil.copy2(my_path + "qnn/src/network/output/lib_sw_W1A3.so", my_path + "qnn/libraries/")
+#    if os.environ.get('VIVADOHLS_INCLUDE_PATH') is not None:
+#        print("Building software libraries...")
+#        os.remove(my_path + "qnn/libraries/lib_sw_W1A2.so")
+#        os.remove(my_path + "qnn/libraries/lib_sw_W1A3.so")
+#        subprocess.check_output(["make", "-j2", "-C", my_path + "qnn/src/network/", "lib_sw_W1A2"])
+#        subprocess.check_output(["make", "-j2", "-C", my_path + "qnn/src/network/", "lib_sw_W1A3"])
+#        shutil.copy2(my_path + "qnn/src/network/output/lib_sw_W1A2.so", my_path + "qnn/libraries/")
+#        shutil.copy2(my_path + "qnn/src/network/output/lib_sw_W1A3.so", my_path + "qnn/libraries/")
 
     for root, dirs, files in os.walk(my_path + "qnn/"):
         for file in files:
@@ -72,9 +76,6 @@ if len(sys.argv) > 1 and sys.argv[1] == 'install':
             for file in files:
                 package_data.append(os.path.join(root,file).replace(my_path + 'qnn/', ''));
 
-    print ("Registering notebooks in data files...")
-    data_files = [(os.path.join('/home/xilinx/jupyter_notebooks/qnn',root.replace('notebooks/','')), [os.path.join(root, f) for f in files]) for root, dirs, files in os.walk('notebooks/')]
-
     print ("Checking out darknet...")
     subprocess.check_output(["git", "clone", "https://github.com/giuliogamba/darknet", my_path + "darknet"])
     print ("Building darknet...")
@@ -83,8 +84,6 @@ if len(sys.argv) > 1 and sys.argv[1] == 'install':
     # shutil.copy2(my_path + "darknet/libdarknet.so", my_path + "darknet/python/")
     # print ("Delete .git folder...")
     # shutil.rmtree(my_path + "darknet/.git")
-    print ("Registering data files...")
-    data_files.extend([(os.path.join('/opt/',root), [os.path.join(root, f) for f in files]) for root, dirs, files in os.walk('darknet/')])
 
 setup(
     name = "qnn-loopback",
@@ -102,3 +101,15 @@ setup(
     data_files = data_files,
     description = "Classification using a hardware accelerated quantized neural network"
 )
+
+if 'bdist_wheel' in sys.argv or 'install' in sys.argv:
+    print("Running post installation script...")
+    print("Copying jupyter notebooks...")
+    if os.path.isdir(os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/qnn/"):
+        shutil.rmtree(os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/qnn/")
+    shutil.copytree("notebooks/",os.environ["PYNQ_JUPYTER_NOTEBOOKS"]+"/qnn/")
+    print("Copying darknet...")
+    if os.path.isdir("/opt/darknet"):
+        shutil.rmtree("/opt/darknet")
+    shutil.copytree("darknet/","/opt/darknet/")
+	

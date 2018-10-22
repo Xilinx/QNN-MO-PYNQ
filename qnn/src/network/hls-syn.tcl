@@ -30,7 +30,9 @@
 # ignore the first 2 args, since Vivado HLS also passes -f tclname as args
 set config_proj_name [lindex $argv 2]
 puts "HLS project: $config_proj_name"
-set config_hwsrcdir [lindex $argv 3]
+set config_platform [lindex $argv 3]
+puts "target platform: $config_platform"
+set config_hwsrcdir [lindex $argv 4]
 puts "HW source dir: $config_hwsrcdir"
 set config_swsrcdir "$::env(XILINX_QNN_ROOT)/network/sw"
 puts "SW source dir: $config_swsrcdir"
@@ -44,18 +46,18 @@ set config_jsondir "$::env(XILINX_QNN_ROOT)/library/rapidjson/include"
 set config_qnnlibdirdrv "$::env(XILINX_QNN_ROOT)/library/driver"
 puts "QNN HLS library driver: $config_qnnlibdirdrv"
 
-set overlay_json "$::env(XILINX_QNN_ROOT)/../bitstreams/${config_proj_name}-overlay.json"
+set overlay_json "$::env(XILINX_QNN_ROOT)/../bitstreams/$config_platform/${config_proj_name}-overlay.json"
 puts "Overlay JSON description: $overlay_json"
-set network_json [lindex $argv 6]
+set network_json [lindex $argv 7]
 puts "Network JSON description: $network_json"
 
 set config_toplevelfxn "BlackBoxJam"
 
-set config_proj_part [lindex $argv 4]
-set config_clkperiod [lindex $argv 5]
+set config_proj_part [lindex $argv 5]
+set config_clkperiod [lindex $argv 6]
 
 # set up project
-open_project -reset $config_proj_name
+open_project -reset $config_proj_name-$config_platform
 add_files $config_hwsrcdir/top.cpp -cflags "-std=c++0x -I$config_qnnlibdirhls"
 add_files -tb $config_swsrcdir/main.cpp -cflags "-std=c++0x -DNOZIP -O3 -I$config_qnnlibdirdrv -I$config_qnnlibdirhls -I$config_qnnlibdirhost -I$config_hwsrcdir -I$config_jsondir"
 add_files -tb $config_qnnlibdirhost/general-utils.cpp -cflags "-std=c++0x -O3 -I$config_qnnlibdirdrv -I$config_qnnlibdirhls -I$config_qnnlibdirhost -I$config_hwsrcdir -I$config_jsondir"

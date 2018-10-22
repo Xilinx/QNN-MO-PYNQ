@@ -37,13 +37,22 @@ import math
 from ctypes import c_size_t
 from pynq import Overlay, Xlnk
 
+if os.environ['BOARD'] == 'Ultra96':
+	PLATFORM="ultra96"
+elif os.environ['BOARD'] == 'Pynq-Z1' or os.environ['BOARD'] == 'Pynq-Z2':
+	PLATFORM="pynqZ1-Z2"
+else:
+	raise RuntimeError("Board not supported")
+
+
 QNN_ROOT_DIR = os.path.dirname(os.path.realpath(__file__))
 ILSVRC_PIXEL_MEAN_FILE = os.path.join(QNN_ROOT_DIR, "params/ilsvrc_pp_mean.npy")
-DOREFANET_BIT_FILE = os.path.join(QNN_ROOT_DIR, "bitstreams/W1A2-overlay-pynq.bit")
+BITSTREAM_NAME="W1A2-{0}.bit".format(PLATFORM)
+DOREFANET_BIT_FILE = os.path.join(QNN_ROOT_DIR, "bitstreams", PLATFORM, BITSTREAM_NAME)
 CONV_WEIGHTS_FOLDER = os.path.join(QNN_ROOT_DIR, "params/binparam-dorefanet/")
-HW_LIBPATH = os.path.join(QNN_ROOT_DIR, "libraries/lib_hw.so")
-SW_LIBPATH = os.path.join(QNN_ROOT_DIR, "libraries/lib_sw_W1A2.so")
-W1A2_JSON = os.path.join(QNN_ROOT_DIR, "bitstreams/W1A2-overlay.json")
+HW_LIBPATH = os.path.join(QNN_ROOT_DIR, "libraries", PLATFORM, "lib_hw.so")
+SW_LIBPATH = os.path.join(QNN_ROOT_DIR, "libraries", PLATFORM, "lib_sw_W1A2.so")
+W1A2_JSON = os.path.join(QNN_ROOT_DIR, "bitstreams", PLATFORM, "W1A2-overlay.json")
 DOREFANET_LAYER_JSON = os.path.join(QNN_ROOT_DIR, "params/dorefanet-layers.json")
 init = False
 net = dict()

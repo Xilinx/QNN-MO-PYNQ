@@ -23,6 +23,8 @@ The software represents the interface to the neuronal network on the fpga. There
 * ``` make app_hw app_sw_W1A2 app_sw_W1A3 ```  
     Builds the testbenches for hardware and software implementations. These can be used with the network and layer json files to test the neuronal network implementation.
 
-# Build Hardeware
+> The building automatically recognize the platform on which the command is launched (Zynq or Zynq Ultrascale) and adapts the low-level drivers address accordingly
+
+# Build Hardware
 
 Please read the *Hardware design rebuilt* chapter in [qnn-loopback/README.md](../../../README.md).

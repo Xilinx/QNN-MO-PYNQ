@@ -33,7 +33,7 @@ NETWORKS=$(ls -d W*A*/ | cut -f1 -d'/' | tr "\n" " ")
 if [ "$#" -ne 3 ]; then
   echo "Usage: $0 <network> <platform> <mode>" >&2
   echo "where <network> = $NETWORKS" >&2
-  echo "<platform> = pynq" >&2
+  echo "<platform> = pynqZ1-Z2 ultra96" >&2
   echo "<mode> = regenerate (h)ls only, (b)itstream only, (a)ll" >&2
   exit 1
 fi
@@ -71,26 +71,29 @@ fi
 QNN_PATH=$XILINX_QNN_ROOT/network
 
 HLS_SRC_DIR="$QNN_PATH/$NETWORK"
-HLS_OUT_DIR="$QNN_PATH/output/hls-syn/$NETWORK"
+HLS_OUT_DIR="$QNN_PATH/output/hls-syn/$NETWORK-$PLATFORM"
 
 HLS_SCRIPT=$QNN_PATH/hls-syn.tcl
 HLS_IP_REPO="$HLS_OUT_DIR/sol1/impl/ip"
 
 HLS_REPORT_PATH="$HLS_OUT_DIR/sol1/syn/report/BlackBoxJam_csynth.rpt"
-REPORT_OUT_DIR="$QNN_PATH/output/report/$NETWORK"
+REPORT_OUT_DIR="$QNN_PATH/output/report/$NETWORK-$PLATFORM"
+VIVADO_HLS_LOG="$QNN_PATH/output/hls-syn/vivado_hls.log"
 
+VIVADO_SCRIPT_DIR=$XILINX_QNN_ROOT/library/script/$PLATFORM
+VIVADO_SCRIPT=$VIVADO_SCRIPT_DIR/make-vivado-proj.tcl
 
-VIVADO_SCRIPT_DIR=$XILINX_QNN_ROOT/library/script/
-BITSTREAM_PATH="$QNN_PATH/output/bitstream"
-TARGET_TCL="$BITSTREAM_PATH/$NETWORK-$PLATFORM.tcl"
-if [[("$PLATFORM" == pynq) ]]; then
-  VIVADO_SCRIPT=$VIVADO_SCRIPT_DIR/make-vivado-proj.tcl
-  DEVICE="xc7z020clg400-1"
-  CLOCK="10"
-  TARGET_BITSTREAM="$BITSTREAM_PATH/$NETWORK-overlay-$PLATFORM.bit"
+if [[ ("$PLATFORM" == "pynqZ1-Z2") ]]; then
+  PLATFORM_PART="xc7z020clg400-1"
+  TARGET_CLOCK="10"
+elif [[ ("$PLATFORM" == "ultra96") ]]; then
+  PLATFORM_PART="xczu3eg-sbva484-1-i"
+  TARGET_CLOCK="5"
 else
-  echo "Platform non supported"
+  echo "Error: Platform not supported. Please choose between pynqZ1-Z2 and ultra96."
+  exit 1
 fi
+
 
 
 # We add a test network for each overlay (csim testbench in Vivado HLS)
@@ -107,7 +110,15 @@ if [[ ("$MODE" == "h") || ("$MODE" == "a")  ]]; then
   OLDDIR=$(pwd)
   echo "Calling Vivado HLS for hardware synthesis..."
   cd $HLS_OUT_DIR/..
-  vivado_hls -f $HLS_SCRIPT -tclargs $NETWORK $HLS_SRC_DIR $DEVICE $CLOCK $NETWORK_JSON
+  vivado_hls -f $HLS_SCRIPT -tclargs $NETWORK $PLATFORM $HLS_SRC_DIR $PLATFORM_PART $TARGET_CLOCK $NETWORK_JSON
+  if cat $VIVADO_HLS_LOG | grep "ERROR"; then
+    echo "Error in Vivado_HLS"
+    exit 1	
+  fi
+  if cat $VIVADO_HLS_LOG | grep "CRITICAL WARNING"; then
+    echo "Critical warning in Vivado_HLS"
+    exit 1	
+  fi
   cat $HLS_REPORT_PATH | grep "Utilization Estimates" -A 20 > $REPORT_OUT_DIR/hls.txt
   cat $REPORT_OUT_DIR/hls.txt
   echo "HLS synthesis complete"
@@ -119,7 +130,9 @@ fi
 
 TARGET_NAME="$NETWORK-$PLATFORM"
 VIVADO_OUT_DIR="$QNN_PATH/output/vivado/$TARGET_NAME"
-FREQ="200.0"
+BITSTREAM_PATH="$QNN_PATH/output/bitstream"
+TARGET_BITSTREAM="$BITSTREAM_PATH/$NETWORK-$PLATFORM.bit"
+TARGET_TCL="$BITSTREAM_PATH/$NETWORK-$PLATFORM.tcl"
 
 
 if [[ ("$MODE" == "b") || ("$MODE" == "a")  ]]; then
@@ -142,9 +155,11 @@ if [[ ("$MODE" == "b") || ("$MODE" == "a")  ]]; then
 
   # extract parts of the post-implementation reports
   cat "$VIVADO_OUT_DIR/$TARGET_NAME.runs/impl_1/procsys_wrapper_timing_summary_routed.rpt" | grep "| Design Timing Summary" -B 3 -A 10 > $REPORT_OUT_DIR/vivado.txt
-  cat "$VIVADO_OUT_DIR/$TARGET_NAME.runs/impl_1/procsys_wrapper_utilization_placed.rpt" | grep "Slice LUTs" -B 3 -A 10 >> $REPORT_OUT_DIR/vivado.txt
+  cat "$VIVADO_OUT_DIR/$TARGET_NAME.runs/impl_1/procsys_wrapper_utilization_placed.rpt" | grep "| Slice LUTs" -B 3 -A 11 >> $REPORT_OUT_DIR/vivado.txt
+  cat "$VIVADO_OUT_DIR/$TARGET_NAME.runs/impl_1/procsys_wrapper_utilization_placed.rpt" | grep "| CLB LUTs" -B 3 -A 11 >> $REPORT_OUT_DIR/vivado.txt
   cat "$VIVADO_OUT_DIR/$TARGET_NAME.runs/impl_1/procsys_wrapper_utilization_placed.rpt" |  grep "| Block RAM Tile" -B 3 -A 5 >> $REPORT_OUT_DIR/vivado.txt
   cat "$VIVADO_OUT_DIR/$TARGET_NAME.runs/impl_1/procsys_wrapper_utilization_placed.rpt" |  grep "| DSPs" -B 3 -A 3 >> $REPORT_OUT_DIR/vivado.txt
+
 
 
   echo "Bitstream copied to $TARGET_BITSTREAM"

@@ -41,7 +41,7 @@ app_sw_targets_internal = $(foreach app_target, $(app_sw_targets), output/$(app_
 
 .PHONY: help .output_dir $(app_sw_targets) $(lib_sw_targets) app_hw lib_hw
 
-lib_linking_hw  = -lsds_lib
+lib_linking_hw  = -lcma
 ifndef NOZIP
 lib_linking 	= -lzip
 else

@@ -1,0 +1,20 @@
+{
+    "parameters": {
+        "MAX_K": 5,
+        "MAX_IFM_CH": 384,
+        "MAX_IFM_DIM": 64,
+        "MAX_OFM_CH": 384,
+        "MAX_OFM_DIM": 64,
+        "MAX_POOL_SIZE": 3,
+        "MAX_POOL_STRIDE": 2,
+        "MAX_SIMD": 64,
+        "MAX_PE_CONV": 32,
+        "MAX_PE_FC": 2,
+        "MEM_CHANNELS": 2,
+        "ACTIVATION_BITS": 2,
+        "WEIGHTS_BITS": 1,
+        "THRESHOLDS_BITS": 64,
+        "MACC_BITS": 16,
+        "DATAWIDTH": 64
+    }
+}

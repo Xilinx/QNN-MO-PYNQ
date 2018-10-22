@@ -31,7 +31,7 @@ XILINX_QNN_ROOT=$(abspath ../..)
 MYSELF=$(abspath $(lastword $(MAKEFILE_LIST)))
 
 CXXFLAGS += -std=c++11
-CXXFLAGS += -O3
+CXXFLAGS += -O2
 #CXXFLAGS += -ggdb
 
 INCLUDES += -I$(XILINX_QNN_ROOT)/library/rapidjson/include

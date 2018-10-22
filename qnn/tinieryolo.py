@@ -38,12 +38,20 @@ from pynq import Overlay, Xlnk
 import subprocess
 import time
 
+if os.environ['BOARD'] == 'Ultra96':
+	PLATFORM="ultra96"
+elif os.environ['BOARD'] == 'Pynq-Z1' or os.environ['BOARD'] == 'Pynq-Z2':
+	PLATFORM="pynqZ1-Z2"
+else:
+	raise RuntimeError("Board not supported")
+
 QNN_ROOT_DIR = os.path.dirname(os.path.realpath(__file__))
-TINIER_YOLO_BIT_FILE = os.path.join(QNN_ROOT_DIR,"bitstreams/W1A3-overlay-pynq.bit")
+BITSTREAM_NAME="W1A3-{0}.bit".format(PLATFORM)
+TINIER_YOLO_BIT_FILE = os.path.join(QNN_ROOT_DIR,"bitstreams", PLATFORM, BITSTREAM_NAME)
 CONV_WEIGHTS_FOLDER = os.path.join(QNN_ROOT_DIR,"params/binparam-tinier-yolo-nopool/")
-HW_LIBPATH = os.path.join(QNN_ROOT_DIR, "libraries/lib_hw.so")
-SW_LIBPATH = os.path.join(QNN_ROOT_DIR, "libraries/lib_sw_W1A3.so")
-W1A3_JSON = os.path.join(QNN_ROOT_DIR, "bitstreams/W1A3-overlay.json")
+HW_LIBPATH = os.path.join(QNN_ROOT_DIR, "libraries", PLATFORM, "lib_hw.so")
+SW_LIBPATH = os.path.join(QNN_ROOT_DIR, "libraries", PLATFORM, "lib_sw_W1A3.so")
+W1A3_JSON = os.path.join(QNN_ROOT_DIR, "bitstreams", PLATFORM, "W1A3-overlay.json")
 JSON_TINIER_YOLO = os.path.join(QNN_ROOT_DIR,"params/tinier-yolo-layers.json")
 
 
