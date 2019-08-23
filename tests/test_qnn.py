@@ -59,8 +59,8 @@ def test_dorefanet():
 	classifier.init_accelerator()
 	net = classifier.load_network(json_layer=os.path.join(QNN_ROOT_DIR, 'qnn', 'params', 'dorefanet-layers.json'))
 
-	conv0_weights = np.load(os.path.join(QNN_ROOT_DIR, 'qnn', 'params', 'dorefanet-conv0.npy'), encoding="latin1").item()
-	fc_weights = np.load('/usr/local/lib/python3.6/dist-packages/qnn/params/dorefanet-fc-normalized.npy', encoding='latin1').item()
+	conv0_weights = np.load(os.path.join(QNN_ROOT_DIR, 'qnn', 'params', 'dorefanet-conv0.npy'), encoding="latin1", allow_pickle=True).item()
+	fc_weights = np.load('/usr/local/lib/python3.6/dist-packages/qnn/params/dorefanet-fc-normalized.npy', encoding='latin1', allow_pickle=True).item()
 	with open(os.path.join(QNN_ROOT_DIR, 'notebooks', 'imagenet-classes.pkl'), 'rb') as f:
 		classes = pickle.load(f)
 		names = dict((k, classes[k][1].split(',')[0]) for k in classes.keys())
@@ -130,13 +130,13 @@ def test_tinier_yolo():
 	classifier = TinierYolo()
 	classifier.init_accelerator()
 	net = classifier.load_network(json_layer=os.path.join(QNN_ROOT_DIR, 'qnn', 'params', 'tinier-yolo-layers.json'))
-	conv0_weights = np.load('/usr/local/lib/python3.6/dist-packages/qnn/params/tinier-yolo-conv0-W.npy', encoding="latin1")
+	conv0_weights = np.load('/usr/local/lib/python3.6/dist-packages/qnn/params/tinier-yolo-conv0-W.npy', encoding="latin1", allow_pickle=True)
 	conv0_weights_correct = np.transpose(conv0_weights, axes=(3, 2, 1, 0))
-	conv8_weights = np.load('/usr/local/lib/python3.6/dist-packages/qnn/params/tinier-yolo-conv8-W.npy', encoding="latin1")
+	conv8_weights = np.load('/usr/local/lib/python3.6/dist-packages/qnn/params/tinier-yolo-conv8-W.npy', encoding="latin1", allow_pickle=True)
 	conv8_weights_correct = np.transpose(conv8_weights, axes=(3, 2, 1, 0))
-	conv0_bias = np.load('/usr/local/lib/python3.6/dist-packages/qnn/params/tinier-yolo-conv0-bias.npy', encoding="latin1")
+	conv0_bias = np.load('/usr/local/lib/python3.6/dist-packages/qnn/params/tinier-yolo-conv0-bias.npy', encoding="latin1", allow_pickle=True)
 	conv0_bias_broadcast = np.broadcast_to(conv0_bias[:,np.newaxis], (net['conv1']['input'][0],net['conv1']['input'][1]*net['conv1']['input'][1]))
-	conv8_bias = np.load('/usr/local/lib/python3.6/dist-packages/qnn/params/tinier-yolo-conv8-bias.npy', encoding="latin1")
+	conv8_bias = np.load('/usr/local/lib/python3.6/dist-packages/qnn/params/tinier-yolo-conv8-bias.npy', encoding="latin1", allow_pickle=True)
 	conv8_bias_broadcast = np.broadcast_to(conv8_bias[:,np.newaxis], (125,13*13))
 
 	file_name_cfg = c_char_p(os.path.join(QNN_ROOT_DIR, 'qnn', 'params', 'tinier-yolo-bwn-3bit-relu-nomaxpool.cfg').encode())

@@ -255,7 +255,7 @@ class Dorefanet:
             raise NotImplementedError("To be implemented")
 
         # Get ILSVRC metadata
-        pp_mean = np.load(ILSVRC_PIXEL_MEAN_FILE)
+        pp_mean = np.load(ILSVRC_PIXEL_MEAN_FILE, allow_pickle=True)
         pp_mean_224 = pp_mean[16:-16, 16:-16, :]
 
         # Crop and rescale image to 224x224
