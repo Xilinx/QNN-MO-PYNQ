@@ -8,7 +8,7 @@ Two different overlays are here included, namely W1A2 (1 bit weights, 2 bit acti
 In order to install it on your PYNQ board, connect to the board, open a terminal and type:
 
 ```shell
-# (on PYNQ v2.3 only)
+# (on PYNQ v2.3 and later versions, tested up to v2.5)
 sudo pip3 install git+https://github.com/Xilinx/QNN-MO-PYNQ.git
 ```
 
